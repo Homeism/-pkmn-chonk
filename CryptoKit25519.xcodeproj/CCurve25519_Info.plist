@@ -5,4 +5,5 @@
   <string>en</string>
   <key>CFBundleExecutable</key>
   <string>$(EXECUTABLE_NAME)</string>
-  <key>CFBundleIdenti
+  <key>CFBundleIdentifier</key>
+  <string>$(PRODUCT_BUN
