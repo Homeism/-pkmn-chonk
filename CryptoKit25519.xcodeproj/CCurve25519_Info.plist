@@ -11,4 +11,5 @@
   <string>6.0</string>
   <key>CFBundleName</key>
   <string>$(PRODUCT_NAME)</string>
-  <key>
+  <key>CFBundlePackageType</key>
+  <string>FMWK</st
