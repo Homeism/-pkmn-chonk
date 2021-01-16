@@ -15,4 +15,5 @@
   <string>FMWK</string>
   <key>CFBundleShortVersionString</key>
   <string>1.0</string>
-  <key
+  <key>CFBundleSignature</key>
+  <strin
