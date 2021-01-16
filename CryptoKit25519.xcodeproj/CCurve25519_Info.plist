@@ -13,4 +13,6 @@
   <string>$(PRODUCT_NAME)</string>
   <key>CFBundlePackageType</key>
   <string>FMWK</string>
-  <key>CFBundleShortVersi
+  <key>CFBundleShortVersionString</key>
+  <string>1.0</string>
+  <key
