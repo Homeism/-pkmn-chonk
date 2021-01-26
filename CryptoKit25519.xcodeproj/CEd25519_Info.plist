@@ -3,4 +3,5 @@
 <dict>
   <key>CFBundleDevelopmentRegion</key>
   <string>en</string>
-  <key>CFBun
+  <key>CFBundleExecutable</key>
+  <string>$(E
