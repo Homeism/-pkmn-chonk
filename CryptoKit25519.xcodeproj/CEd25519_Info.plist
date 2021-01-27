@@ -4,4 +4,5 @@
   <key>CFBundleDevelopmentRegion</key>
   <string>en</string>
   <key>CFBundleExecutable</key>
-  <string>$(E
+  <string>$(EXECUTABLE_NAME)</string>
+  <key>CFBund
