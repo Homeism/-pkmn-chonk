@@ -8,4 +8,5 @@
   <key>CFBundleIdentifier</key>
   <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
   <key>CFBundleInfoDictionaryVersion</key>
-  <stri
+  <string>6.0</string>
+  <key>CFBundleN
