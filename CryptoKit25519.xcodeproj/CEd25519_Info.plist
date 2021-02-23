@@ -17,4 +17,5 @@
   <string>1.0</string>
   <key>CFBundleSignature</key>
   <string>????</string>
-  <key>CFBundl
+  <key>CFBundleVersion</key>
+  <string>$(CURRENT_PR
