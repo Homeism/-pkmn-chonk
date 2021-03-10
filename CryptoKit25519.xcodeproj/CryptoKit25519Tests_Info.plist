@@ -15,4 +15,5 @@
   <string>BNDL</string>
   <key>CFBundleShortVersionString</key>
   <string>1.0</string>
-  <key>CF
+  <key>CFBundleSignature</key>
+  <string>????</string>
