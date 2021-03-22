@@ -6,4 +6,4 @@
   <key>CFBundleExecutable</key>
   <string>$(EXECUTABLE_NAME)</string>
   <key>CFBundleIdentifier</key>
-  <string>$(PR
+  <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string
