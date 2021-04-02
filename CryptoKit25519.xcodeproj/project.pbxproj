@@ -232,3 +232,42 @@
 			remoteGlobalIDString = "CCurve25519::CCurve25519";
 			remoteInfo = CCurve25519;
 		};
+		CE1E035D23C68C7300F15FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CEd25519::CEd25519";
+			remoteInfo = CEd25519;
+		};
+		CE1E035E23C68C7300F15FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CryptoKit25519::CryptoKit25519";
+			remoteInfo = CryptoKit25519;
+		};
+		CE1E035F23C68C7300F15FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CryptoSwift::CryptoSwift";
+			remoteInfo = CryptoSwift;
+		};
+		CE1E036023C68C7300F15FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CCurve25519::CCurve25519";
+			remoteInfo = CCurve25519;
+		};
+		CE1E036123C68C7300F15FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CEd25519::CEd25519";
+			remoteInfo = CEd25519;
+		};
+		CE1E036223C68C7400F15FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
