@@ -271,3 +271,40 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
+			remoteGlobalIDString = "CryptoKit25519::CryptoKit25519Tests";
+			remoteInfo = CryptoKit25519Tests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"CCurve25519::CCurve25519::Product" /* CCurve25519.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCurve25519.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1E036323C6936F00F15FD3 /* SharedSecret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedSecret.swift; sourceTree = "<group>"; };
+		CE1E036623C694C100F15FD3 /* SymmetricKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricKey.swift; sourceTree = "<group>"; };
+		CE1E036A23C69AD800F15FD3 /* SigningPrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigningPrivateKey.swift; sourceTree = "<group>"; };
+		CE1E036D23C69B3400F15FD3 /* SigningPublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigningPublicKey.swift; sourceTree = "<group>"; };
+		CE8A488123CCA42C0097D974 /* AES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
+		CE8A488423CCA8880097D974 /* Randomness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Randomness.swift; sourceTree = "<group>"; };
+		CE8A488723CCAC140097D974 /* CryptoKitError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoKitError.swift; sourceTree = "<group>"; };
+		CE8A488B23CCB0610097D974 /* GCM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCM.swift; sourceTree = "<group>"; };
+		CE8A488E23CCB0960097D974 /* Nonce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nonce.swift; sourceTree = "<group>"; };
+		CE8A489123CCB0CB0097D974 /* SealedBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealedBox.swift; sourceTree = "<group>"; };
+		"CEd25519::CEd25519::Product" /* CEd25519.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CEd25519.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CryptoKit25519::CryptoKit25519::Product" /* CryptoKit25519.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CryptoKit25519.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CryptoKit25519::CryptoKit25519Tests::Product" /* CryptoKit25519Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CryptoKit25519Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CryptoSwift::CryptoSwift::Product" /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_100 /* ZeroPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroPadding.swift; sourceTree = "<group>"; };
+		OBJ_101 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/user/Development/CryptoKit25519/.build/checkouts/CryptoSwift/Package.swift; sourceTree = "<group>"; };
+		OBJ_106 /* blocks.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = blocks.c; sourceTree = "<group>"; };
+		OBJ_107 /* compare.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compare.c; sourceTree = "<group>"; };
+		OBJ_108 /* curve_sigs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = curve_sigs.c; sourceTree = "<group>"; };
+		OBJ_109 /* elligator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = elligator.c; sourceTree = "<group>"; };
+		OBJ_11 /* KeyAgreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyAgreement.swift; sourceTree = "<group>"; };
+		OBJ_110 /* fe_0.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fe_0.c; sourceTree = "<group>"; };
+		OBJ_111 /* fe_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fe_1.c; sourceTree = "<group>"; };
+		OBJ_112 /* fe_add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fe_add.c; sourceTree = "<group>"; };
+		OBJ_113 /* fe_cmov.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fe_cmov.c; sourceTree = "<group>"; };
+		OBJ_114 /* fe_copy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fe_copy.c; sourceTree = "<group>"; };
+		OBJ_115 /* fe_frombytes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fe_frombytes.c; sourceTree = "<group>"; };
+		OBJ_116 /* fe_invert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fe_invert.c; sourceTree = "<group>"; };
+		OBJ_117 /* fe_isequal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fe_isequal.c; sourceTree = "<group>"; };
+		OBJ_118 /* fe_isnegative.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fe_isnegative.c; sourceTree = "<group>"; };
