@@ -505,3 +505,59 @@
 				OBJ_365 /* CryptoSwift.framework in Frameworks */,
 				OBJ_366 /* CCurve25519.framework in Frameworks */,
 				OBJ_367 /* CEd25519.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1E036923C69AAE00F15FD3 /* Signing */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_14 /* Signing.swift */,
+				CE1E036A23C69AD800F15FD3 /* SigningPrivateKey.swift */,
+				CE1E036D23C69B3400F15FD3 /* SigningPublicKey.swift */,
+			);
+			path = Signing;
+			sourceTree = "<group>";
+		};
+		CE8A488A23CCB0520097D974 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A488123CCA42C0097D974 /* AES.swift */,
+				CE8A488B23CCB0610097D974 /* GCM.swift */,
+				CE8A488E23CCB0960097D974 /* Nonce.swift */,
+				CE8A489123CCB0CB0097D974 /* SealedBox.swift */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* KeyAgreement */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* KeyAgreement.swift */,
+				OBJ_12 /* PrivateKey.swift */,
+				OBJ_13 /* PublicKey.swift */,
+			);
+			path = KeyAgreement;
+			sourceTree = "<group>";
+		};
+		OBJ_102 /* CCurve25519 1.0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_103 /* CCurve25519 */,
+				OBJ_186 /* Package.swift */,
+			);
+			name = "CCurve25519 1.0.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_103 /* CCurve25519 */ = {
+			isa = PBXGroup;
+			children = (
