@@ -651,3 +651,46 @@
 				OBJ_174 /* sign_modified.c */,
 				OBJ_175 /* utility.c */,
 				OBJ_176 /* xeddsa.c */,
+				OBJ_177 /* zeroize.c */,
+			);
+			path = Ed25519;
+			sourceTree = "<group>";
+		};
+		OBJ_15 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* CryptoKit25519Tests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* CryptoKit25519Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* CryptoKit25519Tests.swift */,
+				OBJ_18 /* XCTestManifests.swift */,
+			);
+			name = CryptoKit25519Tests;
+			path = Tests/CryptoKit25519Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_179 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_180 /* curve25519-donna.h */,
+				OBJ_181 /* internal_fast_tests.h */,
+				OBJ_182 /* CCurve25519.h */,
+				OBJ_183 /* internal_slow_tests.h */,
+				OBJ_184 /* curve_sigs.h */,
+				OBJ_185 /* gen_x.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_187 /* CEd25519 0.0.6 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_188 /* CEd25519 */,
+				OBJ_202 /* Package.swift */,
+			);
+			name = "CEd25519 0.0.6";
