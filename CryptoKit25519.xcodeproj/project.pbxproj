@@ -694,3 +694,41 @@
 				OBJ_202 /* Package.swift */,
 			);
 			name = "CEd25519 0.0.6";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_188 /* CEd25519 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_189 /* lib */,
+				OBJ_200 /* include */,
+			);
+			name = CEd25519;
+			path = .build/checkouts/CEd25519/Sources/CEd25519;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_189 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_190 /* add_scalar.c */,
+				OBJ_191 /* fe.c */,
+				OBJ_192 /* ge.c */,
+				OBJ_193 /* key_exchange.c */,
+				OBJ_194 /* keypair.c */,
+				OBJ_195 /* sc.c */,
+				OBJ_196 /* seed.c */,
+				OBJ_197 /* sha512.c */,
+				OBJ_198 /* sign.c */,
+				OBJ_199 /* verify.c */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		OBJ_19 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_20 /* CryptoSwift 1.3.0 */,
+				OBJ_102 /* CCurve25519 1.0.1 */,
+				OBJ_187 /* CEd25519 0.0.6 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
