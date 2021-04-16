@@ -732,3 +732,29 @@
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
+		};
+		OBJ_20 /* CryptoSwift 1.3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* CryptoSwift */,
+				OBJ_101 /* Package.swift */,
+			);
+			name = "CryptoSwift 1.3.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_200 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_201 /* CEd25519.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"CEd25519::CEd25519::Product" /* CEd25519.framework */,
+				"CryptoKit25519::CryptoKit25519Tests::Product" /* CryptoKit25519Tests.xctest */,
+				"CryptoKit25519::CryptoKit25519::Product" /* CryptoKit25519.framework */,
+				"CCurve25519::CCurve25519::Product" /* CCurve25519.framework */,
+				"CryptoSwift::CryptoSwift::Product" /* CryptoSwift.framework */,
