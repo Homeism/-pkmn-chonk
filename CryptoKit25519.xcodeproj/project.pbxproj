@@ -758,3 +758,42 @@
 				"CryptoKit25519::CryptoKit25519::Product" /* CryptoKit25519.framework */,
 				"CCurve25519::CCurve25519::Product" /* CCurve25519.framework */,
 				"CryptoSwift::CryptoSwift::Product" /* CryptoSwift.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_21 /* CryptoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_22 /* AEAD */,
+				OBJ_25 /* AES.Cryptors.swift */,
+				OBJ_26 /* AES.swift */,
+				OBJ_27 /* Array+Extension.swift */,
+				OBJ_28 /* Authenticator.swift */,
+				OBJ_29 /* BatchedCollection.swift */,
+				OBJ_30 /* Bit.swift */,
+				OBJ_31 /* BlockCipher.swift */,
+				OBJ_32 /* BlockDecryptor.swift */,
+				OBJ_33 /* BlockEncryptor.swift */,
+				OBJ_34 /* BlockMode */,
+				OBJ_46 /* Blowfish.swift */,
+				OBJ_47 /* CBCMAC.swift */,
+				OBJ_48 /* CMAC.swift */,
+				OBJ_49 /* ChaCha20.swift */,
+				OBJ_50 /* Checksum.swift */,
+				OBJ_51 /* Cipher.swift */,
+				OBJ_52 /* Collection+Extension.swift */,
+				OBJ_53 /* CompactMap.swift */,
+				OBJ_54 /* Cryptor.swift */,
+				OBJ_55 /* Cryptors.swift */,
+				OBJ_56 /* Digest.swift */,
+				OBJ_57 /* DigestType.swift */,
+				OBJ_58 /* Foundation */,
+				OBJ_68 /* Generics.swift */,
+				OBJ_69 /* HKDF.swift */,
+				OBJ_70 /* HMAC.swift */,
+				OBJ_71 /* ISO78164Padding.swift */,
+				OBJ_72 /* Int+Extension.swift */,
+				OBJ_73 /* MD5.swift */,
+				OBJ_74 /* NoPadding.swift */,
+				OBJ_75 /* Operators.swift */,
