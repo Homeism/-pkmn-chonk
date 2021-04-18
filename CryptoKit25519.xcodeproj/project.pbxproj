@@ -797,3 +797,46 @@
 				OBJ_73 /* MD5.swift */,
 				OBJ_74 /* NoPadding.swift */,
 				OBJ_75 /* Operators.swift */,
+				OBJ_76 /* PKCS */,
+				OBJ_82 /* Padding.swift */,
+				OBJ_83 /* Poly1305.swift */,
+				OBJ_84 /* Rabbit.swift */,
+				OBJ_85 /* SHA1.swift */,
+				OBJ_86 /* SHA2.swift */,
+				OBJ_87 /* SHA3.swift */,
+				OBJ_88 /* Scrypt.swift */,
+				OBJ_89 /* SecureBytes.swift */,
+				OBJ_90 /* StreamDecryptor.swift */,
+				OBJ_91 /* StreamEncryptor.swift */,
+				OBJ_92 /* String+Extension.swift */,
+				OBJ_93 /* UInt128.swift */,
+				OBJ_94 /* UInt16+Extension.swift */,
+				OBJ_95 /* UInt32+Extension.swift */,
+				OBJ_96 /* UInt64+Extension.swift */,
+				OBJ_97 /* UInt8+Extension.swift */,
+				OBJ_98 /* Updatable.swift */,
+				OBJ_99 /* Utils.swift */,
+				OBJ_100 /* ZeroPadding.swift */,
+			);
+			name = CryptoSwift;
+			path = .build/checkouts/CryptoSwift/Sources/CryptoSwift;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_22 /* AEAD */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* AEAD.swift */,
+				OBJ_24 /* AEADChaCha20Poly1305.swift */,
+			);
+			path = AEAD;
+			sourceTree = "<group>";
+		};
+		OBJ_34 /* BlockMode */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_35 /* BlockMode.swift */,
+				OBJ_36 /* BlockModeOptions.swift */,
+				OBJ_37 /* CBC.swift */,
+				OBJ_38 /* CCM.swift */,
+				OBJ_39 /* CFB.swift */,
+				OBJ_40 /* CTR.swift */,
