@@ -840,3 +840,43 @@
 				OBJ_38 /* CCM.swift */,
 				OBJ_39 /* CFB.swift */,
 				OBJ_40 /* CTR.swift */,
+				OBJ_41 /* CipherModeWorker.swift */,
+				OBJ_42 /* ECB.swift */,
+				OBJ_43 /* GCM.swift */,
+				OBJ_44 /* OFB.swift */,
+				OBJ_45 /* PCBC.swift */,
+			);
+			path = BlockMode;
+			sourceTree = "<group>";
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_15 /* Tests */,
+				OBJ_19 /* Dependencies */,
+				OBJ_203 /* Products */,
+				OBJ_209 /* LICENSE */,
+				OBJ_210 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_58 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_59 /* AES+Foundation.swift */,
+				OBJ_60 /* Array+Foundation.swift */,
+				OBJ_61 /* Blowfish+Foundation.swift */,
+				OBJ_62 /* ChaCha20+Foundation.swift */,
+				OBJ_63 /* Data+Extension.swift */,
+				OBJ_64 /* HMAC+Foundation.swift */,
+				OBJ_65 /* Rabbit+Foundation.swift */,
+				OBJ_66 /* String+FoundationExtension.swift */,
+				OBJ_67 /* Utils+Foundation.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
