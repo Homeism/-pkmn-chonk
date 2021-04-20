@@ -880,3 +880,38 @@
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
+			children = (
+				OBJ_8 /* CryptoKit25519 */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_76 /* PKCS */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_77 /* PBKDF1.swift */,
+				OBJ_78 /* PBKDF2.swift */,
+				OBJ_79 /* PKCS5.swift */,
+				OBJ_80 /* PKCS7.swift */,
+				OBJ_81 /* PKCS7Padding.swift */,
+			);
+			path = PKCS;
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* CryptoKit25519 */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A488723CCAC140097D974 /* CryptoKitError.swift */,
+				OBJ_9 /* Curve25519.swift */,
+				CE8A488423CCA8880097D974 /* Randomness.swift */,
+				CE1E036623C694C100F15FD3 /* SymmetricKey.swift */,
+				CE1E036323C6936F00F15FD3 /* SharedSecret.swift */,
+				CE8A488A23CCB0520097D974 /* Encryption */,
+				OBJ_10 /* KeyAgreement */,
+				CE1E036923C69AAE00F15FD3 /* Signing */,
+			);
+			name = CryptoKit25519;
+			path = Sources/CryptoKit25519;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
