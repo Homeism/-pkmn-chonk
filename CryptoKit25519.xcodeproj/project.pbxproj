@@ -915,3 +915,74 @@
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		OBJ_289 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_290 /* curve25519-donna.h in Headers */,
+				OBJ_291 /* internal_fast_tests.h in Headers */,
+				OBJ_292 /* CCurve25519.h in Headers */,
+				OBJ_293 /* internal_slow_tests.h in Headers */,
+				OBJ_294 /* curve_sigs.h in Headers */,
+				OBJ_295 /* gen_x.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_318 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_319 /* CEd25519.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		"CCurve25519::CCurve25519" /* CCurve25519 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_212 /* Build configuration list for PBXNativeTarget "CCurve25519" */;
+			buildPhases = (
+				OBJ_215 /* Sources */,
+				OBJ_289 /* Headers */,
+				OBJ_296 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCurve25519;
+			productName = CCurve25519;
+			productReference = "CCurve25519::CCurve25519::Product" /* CCurve25519.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"CCurve25519::SwiftPMPackageDescription" /* CCurve25519PackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_298 /* Build configuration list for PBXNativeTarget "CCurve25519PackageDescription" */;
+			buildPhases = (
+				OBJ_301 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCurve25519PackageDescription;
+			productName = CCurve25519PackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"CEd25519::CEd25519" /* CEd25519 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_304 /* Build configuration list for PBXNativeTarget "CEd25519" */;
+			buildPhases = (
+				OBJ_307 /* Sources */,
+				OBJ_318 /* Headers */,
+				OBJ_320 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CEd25519;
+			productName = CEd25519;
