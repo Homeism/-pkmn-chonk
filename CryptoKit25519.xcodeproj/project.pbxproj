@@ -1025,3 +1025,40 @@
 		"CryptoKit25519::CryptoKit25519Tests" /* CryptoKit25519Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_357 /* Build configuration list for PBXNativeTarget "CryptoKit25519Tests" */;
+			buildPhases = (
+				OBJ_360 /* Sources */,
+				OBJ_363 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_368 /* PBXTargetDependency */,
+				OBJ_369 /* PBXTargetDependency */,
+				OBJ_370 /* PBXTargetDependency */,
+				OBJ_371 /* PBXTargetDependency */,
+			);
+			name = CryptoKit25519Tests;
+			productName = CryptoKit25519Tests;
+			productReference = "CryptoKit25519::CryptoKit25519Tests::Product" /* CryptoKit25519Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"CryptoKit25519::SwiftPMPackageDescription" /* CryptoKit25519PackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_346 /* Build configuration list for PBXNativeTarget "CryptoKit25519PackageDescription" */;
+			buildPhases = (
+				OBJ_349 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoKit25519PackageDescription;
+			productName = CryptoKit25519PackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"CryptoSwift::CryptoSwift" /* CryptoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_372 /* Build configuration list for PBXNativeTarget "CryptoSwift" */;
+			buildPhases = (
+				OBJ_375 /* Sources */,
+				OBJ_451 /* Frameworks */,
