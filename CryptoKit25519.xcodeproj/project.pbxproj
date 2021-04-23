@@ -986,3 +986,42 @@
 			);
 			name = CEd25519;
 			productName = CEd25519;
+			productReference = "CEd25519::CEd25519::Product" /* CEd25519.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"CEd25519::SwiftPMPackageDescription" /* CEd25519PackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_322 /* Build configuration list for PBXNativeTarget "CEd25519PackageDescription" */;
+			buildPhases = (
+				OBJ_325 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CEd25519PackageDescription;
+			productName = CEd25519PackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"CryptoKit25519::CryptoKit25519" /* CryptoKit25519 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_328 /* Build configuration list for PBXNativeTarget "CryptoKit25519" */;
+			buildPhases = (
+				OBJ_331 /* Sources */,
+				OBJ_337 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_341 /* PBXTargetDependency */,
+				OBJ_343 /* PBXTargetDependency */,
+				OBJ_344 /* PBXTargetDependency */,
+			);
+			name = CryptoKit25519;
+			productName = CryptoKit25519;
+			productReference = "CryptoKit25519::CryptoKit25519::Product" /* CryptoKit25519.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"CryptoKit25519::CryptoKit25519Tests" /* CryptoKit25519Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_357 /* Build configuration list for PBXNativeTarget "CryptoKit25519Tests" */;
