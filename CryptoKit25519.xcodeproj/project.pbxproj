@@ -1062,3 +1062,53 @@
 			buildPhases = (
 				OBJ_375 /* Sources */,
 				OBJ_451 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoSwift;
+			productName = CryptoSwift;
+			productReference = "CryptoSwift::CryptoSwift::Product" /* CryptoSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"CryptoSwift::SwiftPMPackageDescription" /* CryptoSwiftPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_453 /* Build configuration list for PBXNativeTarget "CryptoSwiftPackageDescription" */;
+			buildPhases = (
+				OBJ_456 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoSwiftPackageDescription;
+			productName = CryptoSwiftPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					"CCurve25519::CCurve25519" = {
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CryptoKit25519" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
