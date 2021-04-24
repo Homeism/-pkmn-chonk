@@ -1112,3 +1112,40 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				"CCurve25519::CCurve25519" /* CCurve25519 */,
+				"CCurve25519::SwiftPMPackageDescription" /* CCurve25519PackageDescription */,
+				"CEd25519::CEd25519" /* CEd25519 */,
+				"CEd25519::SwiftPMPackageDescription" /* CEd25519PackageDescription */,
+				"CryptoKit25519::CryptoKit25519" /* CryptoKit25519 */,
+				"CryptoKit25519::SwiftPMPackageDescription" /* CryptoKit25519PackageDescription */,
+				"CryptoKit25519::CryptoKit25519PackageTests::ProductTarget" /* CryptoKit25519PackageTests */,
+				"CryptoKit25519::CryptoKit25519Tests" /* CryptoKit25519Tests */,
+				"CryptoSwift::CryptoSwift" /* CryptoSwift */,
+				"CryptoSwift::SwiftPMPackageDescription" /* CryptoSwiftPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_216 /* blocks.c in Sources */,
+				OBJ_217 /* compare.c in Sources */,
+				OBJ_218 /* curve_sigs.c in Sources */,
+				OBJ_219 /* elligator.c in Sources */,
+				OBJ_220 /* fe_0.c in Sources */,
+				OBJ_221 /* fe_1.c in Sources */,
+				OBJ_222 /* fe_add.c in Sources */,
+				OBJ_223 /* fe_cmov.c in Sources */,
+				OBJ_224 /* fe_copy.c in Sources */,
+				OBJ_225 /* fe_frombytes.c in Sources */,
+				OBJ_226 /* fe_invert.c in Sources */,
+				OBJ_227 /* fe_isequal.c in Sources */,
+				OBJ_228 /* fe_isnegative.c in Sources */,
+				OBJ_229 /* fe_isnonzero.c in Sources */,
+				OBJ_230 /* fe_isreduced.c in Sources */,
+				OBJ_231 /* fe_mont_rhs.c in Sources */,
+				OBJ_232 /* fe_montx_to_edy.c in Sources */,
+				OBJ_233 /* fe_mul.c in Sources */,
