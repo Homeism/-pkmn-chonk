@@ -1182,3 +1182,47 @@
 				OBJ_264 /* ge_sub.c in Sources */,
 				OBJ_265 /* ge_tobytes.c in Sources */,
 				OBJ_266 /* gen_eddsa.c in Sources */,
+				OBJ_267 /* gen_labelset.c in Sources */,
+				OBJ_268 /* gen_veddsa.c in Sources */,
+				OBJ_269 /* gen_x.c in Sources */,
+				OBJ_270 /* hash.c in Sources */,
+				OBJ_271 /* internal_fast_tests.c in Sources */,
+				OBJ_272 /* internal_slow_tests.c in Sources */,
+				OBJ_273 /* keygen.c in Sources */,
+				OBJ_274 /* open.c in Sources */,
+				OBJ_275 /* open_modified.c in Sources */,
+				OBJ_276 /* point_isreduced.c in Sources */,
+				OBJ_277 /* sc_clamp.c in Sources */,
+				OBJ_278 /* sc_cmov.c in Sources */,
+				OBJ_279 /* sc_isreduced.c in Sources */,
+				OBJ_280 /* sc_muladd.c in Sources */,
+				OBJ_281 /* sc_neg.c in Sources */,
+				OBJ_282 /* sc_reduce.c in Sources */,
+				OBJ_283 /* sign.c in Sources */,
+				OBJ_284 /* sign_modified.c in Sources */,
+				OBJ_285 /* utility.c in Sources */,
+				OBJ_286 /* xeddsa.c in Sources */,
+				OBJ_287 /* zeroize.c in Sources */,
+				OBJ_288 /* curve25519-donna.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_302 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_308 /* add_scalar.c in Sources */,
+				OBJ_309 /* fe.c in Sources */,
+				OBJ_310 /* ge.c in Sources */,
+				OBJ_311 /* key_exchange.c in Sources */,
+				OBJ_312 /* keypair.c in Sources */,
+				OBJ_313 /* sc.c in Sources */,
+				OBJ_314 /* seed.c in Sources */,
