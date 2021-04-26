@@ -1226,3 +1226,49 @@
 				OBJ_312 /* keypair.c in Sources */,
 				OBJ_313 /* sc.c in Sources */,
 				OBJ_314 /* seed.c in Sources */,
+				OBJ_315 /* sha512.c in Sources */,
+				OBJ_316 /* sign.c in Sources */,
+				OBJ_317 /* verify.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_326 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CE1E036823C694F400F15FD3 /* SymmetricKey.swift in Sources */,
+				OBJ_332 /* Curve25519.swift in Sources */,
+				CE8A488923CCAC180097D974 /* CryptoKitError.swift in Sources */,
+				CE8A488623CCA8BE0097D974 /* Randomness.swift in Sources */,
+				CE1E036F23C69BA200F15FD3 /* SigningPublicKey.swift in Sources */,
+				CE8A489023CCB0990097D974 /* Nonce.swift in Sources */,
+				OBJ_333 /* KeyAgreement.swift in Sources */,
+				CE1E036523C693A900F15FD3 /* SharedSecret.swift in Sources */,
+				OBJ_334 /* PrivateKey.swift in Sources */,
+				OBJ_335 /* PublicKey.swift in Sources */,
+				OBJ_336 /* Signing.swift in Sources */,
+				CE8A488D23CCB0650097D974 /* GCM.swift in Sources */,
+				CE8A489323CCB0CE0097D974 /* SealedBox.swift in Sources */,
+				CE1E036C23C69ADE00F15FD3 /* SigningPrivateKey.swift in Sources */,
+				CE8A488323CCA5850097D974 /* AES.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_350 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
