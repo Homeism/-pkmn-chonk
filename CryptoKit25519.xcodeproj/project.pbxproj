@@ -1272,3 +1272,30 @@
 		};
 		OBJ_360 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_361 /* CryptoKit25519Tests.swift in Sources */,
+				OBJ_362 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_376 /* AEAD.swift in Sources */,
+				OBJ_377 /* AEADChaCha20Poly1305.swift in Sources */,
+				OBJ_378 /* AES.Cryptors.swift in Sources */,
+				OBJ_379 /* AES.swift in Sources */,
+				OBJ_380 /* Array+Extension.swift in Sources */,
+				OBJ_381 /* Authenticator.swift in Sources */,
+				OBJ_382 /* BatchedCollection.swift in Sources */,
+				OBJ_383 /* Bit.swift in Sources */,
+				OBJ_384 /* BlockCipher.swift in Sources */,
+				OBJ_385 /* BlockDecryptor.swift in Sources */,
+				OBJ_386 /* BlockEncryptor.swift in Sources */,
+				OBJ_387 /* BlockMode.swift in Sources */,
+				OBJ_388 /* BlockModeOptions.swift in Sources */,
+				OBJ_389 /* CBC.swift in Sources */,
+				OBJ_390 /* CCM.swift in Sources */,
+				OBJ_391 /* CFB.swift in Sources */,
