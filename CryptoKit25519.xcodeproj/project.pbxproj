@@ -1352,3 +1352,40 @@
 				OBJ_442 /* String+Extension.swift in Sources */,
 				OBJ_443 /* UInt128.swift in Sources */,
 				OBJ_444 /* UInt16+Extension.swift in Sources */,
+				OBJ_445 /* UInt32+Extension.swift in Sources */,
+				OBJ_446 /* UInt64+Extension.swift in Sources */,
+				OBJ_447 /* UInt8+Extension.swift in Sources */,
+				OBJ_448 /* Updatable.swift in Sources */,
+				OBJ_449 /* Utils.swift in Sources */,
+				OBJ_450 /* ZeroPadding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_457 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CryptoSwift::CryptoSwift" /* CryptoSwift */;
+			targetProxy = CE1E035B23C68C7300F15FD3 /* PBXContainerItemProxy */;
+		};
+		OBJ_343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CCurve25519::CCurve25519" /* CCurve25519 */;
+			targetProxy = CE1E035C23C68C7300F15FD3 /* PBXContainerItemProxy */;
+		};
+		OBJ_344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CEd25519::CEd25519" /* CEd25519 */;
+			targetProxy = CE1E035D23C68C7300F15FD3 /* PBXContainerItemProxy */;
+		};
+		OBJ_355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
