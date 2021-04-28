@@ -1389,3 +1389,47 @@
 		};
 		OBJ_355 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			target = "CryptoKit25519::CryptoKit25519Tests" /* CryptoKit25519Tests */;
+			targetProxy = CE1E036223C68C7400F15FD3 /* PBXContainerItemProxy */;
+		};
+		OBJ_368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CryptoKit25519::CryptoKit25519" /* CryptoKit25519 */;
+			targetProxy = CE1E035E23C68C7300F15FD3 /* PBXContainerItemProxy */;
+		};
+		OBJ_369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CryptoSwift::CryptoSwift" /* CryptoSwift */;
+			targetProxy = CE1E035F23C68C7300F15FD3 /* PBXContainerItemProxy */;
+		};
+		OBJ_370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CCurve25519::CCurve25519" /* CCurve25519 */;
+			targetProxy = CE1E036023C68C7300F15FD3 /* PBXContainerItemProxy */;
+		};
+		OBJ_371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CEd25519::CEd25519" /* CEd25519 */;
+			targetProxy = CE1E036123C68C7300F15FD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CCurve25519/Sources/CCurve25519/include",
+				);
+				INFOPLIST_FILE = CryptoKit25519.xcodeproj/CCurve25519_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
