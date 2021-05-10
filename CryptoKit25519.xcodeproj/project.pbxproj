@@ -1958,3 +1958,10 @@
 				OBJ_454 /* Debug */,
 				OBJ_455 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
