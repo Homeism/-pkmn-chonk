@@ -5,4 +5,4 @@ A Swift module for Curve25519 functions and AES-GCM encryption compatible with A
 
 ## Purpose
 
-This modul
+This module provides signatures and key agreement based
