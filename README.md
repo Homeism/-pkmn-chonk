@@ -9,4 +9,6 @@ This module provides signatures and key agreement based on Curve25519 in Swift. 
 
 ## Installation
 
-When using the Swift Package Manager,
+When using the Swift Package Manager, specify in `Package.swift`:
+
+````sw
