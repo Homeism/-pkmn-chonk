@@ -12,4 +12,4 @@ This module provides signatures and key agreement based on Curve25519 in Swift. 
 When using the Swift Package Manager, specify in `Package.swift`:
 
 ````swift
-.package(url: "https://githu
+.package(url: "https://github.com/christophhagen/CryptoKit2
