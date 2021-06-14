@@ -15,4 +15,7 @@ When using the Swift Package Manager, specify in `Package.swift`:
 .package(url: "https://github.com/christophhagen/CryptoKit25519", from: "0.6.0")
 ````
 
-Then, in your source 
+Then, in your source files, simply:
+
+````swift
+import Cryp
