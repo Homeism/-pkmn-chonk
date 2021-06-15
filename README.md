@@ -18,4 +18,9 @@ When using the Swift Package Manager, specify in `Package.swift`:
 Then, in your source files, simply:
 
 ````swift
-import Cryp
+import CryptoKit25519
+````
+
+## Usage
+
+This library is bui
