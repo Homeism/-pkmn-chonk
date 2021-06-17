@@ -23,4 +23,4 @@ import CryptoKit25519
 
 ## Usage
 
-This library is built to be *very* similar to Apple's [`CryptoKit`](https://developer.apple.com/documenta
+This library is built to be *very* similar to Apple's [`CryptoKit`](https://developer.apple.com/documentation/cryptokit) framework, so mu
