@@ -23,4 +23,6 @@ import CryptoKit25519
 
 ## Usage
 
-This library is built to be *very* similar to Apple's [`CryptoKit`](https://developer.apple.com/documentation/cryptokit) framework, so much of the documentation there also applies to this framework. Notable differences ar
+This library is built to be *very* similar to Apple's [`CryptoKit`](https://developer.apple.com/documentation/cryptokit) framework, so much of the documentation there also applies to this framework. Notable differences are:
+- Operations are NOT constant-time. 
+- 
