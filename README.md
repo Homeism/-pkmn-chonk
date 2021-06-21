@@ -27,4 +27,5 @@ This library is built to be *very* similar to Apple's [`CryptoKit`](https://deve
 - Operations are NOT constant-time. 
 - Sensitive keys are NOT immediately zeroized after use.
 
-Currently suppor
+Currently supported operations:
+- Signatures with Curve2551
