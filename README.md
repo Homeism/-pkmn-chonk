@@ -30,4 +30,6 @@ This library is built to be *very* similar to Apple's [`CryptoKit`](https://deve
 Currently supported operations:
 - Signatures with Curve25519 (No support for P521, P384, or P256)
 - Key Agreement with Curve25519 (No support for P521, P384, or P256)
-- Encryption with AES-GCM (No support for ChaChaPo
+- Encryption with AES-GCM (No support for ChaChaPoly)
+
+If you need additional operations, ha
