@@ -36,4 +36,4 @@ If you need additional operations, have a look at [OpenCrypto](https://github.co
 
 ### Randomness
 
-`CryptoK
+`CryptoKit25519` requires a source of cr
