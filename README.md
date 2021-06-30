@@ -36,4 +36,4 @@ If you need additional operations, have a look at [OpenCrypto](https://github.co
 
 ### Randomness
 
-`CryptoKit25519` requires a source of cr
+`CryptoKit25519` requires a source of cryptographically secure random numbers to gener
