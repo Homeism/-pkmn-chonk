@@ -36,4 +36,4 @@ If you need additional operations, have a look at [OpenCrypto](https://github.co
 
 ### Randomness
 
-`CryptoKit25519` requires a source of cryptographically secure random numbers to generate keys. On supported platforms (iOS 2.0+, macOS 10.7+, tvOS 9.0+, watchOS 2.0+, macCatalyst 13.0+) [SecCopyRandomBytes](h
+`CryptoKit25519` requires a source of cryptographically secure random numbers to generate keys. On supported platforms (iOS 2.0+, macOS 10.7+, tvOS 9.0+, watchOS 2.0+, macCatalyst 13.0+) [SecCopyRandomBytes](https://developer.apple.com/documenta
