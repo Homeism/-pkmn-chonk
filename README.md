@@ -40,4 +40,5 @@ If you need additional operations, have a look at [OpenCrypto](https://github.co
 
 You can provide a custom source for random numbers by setting `Randomness.source`:
 ````swift
-Random
+Randomness.source = { count in
+    return ... // R
