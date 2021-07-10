@@ -42,3 +42,7 @@ You can provide a custom source for random numbers by setting `Randomness.source
 ````swift
 Randomness.source = { count in
     return ... // Return a [UInt8] with `count` random bytes, or nil, if no randomness is available.
+}
+````
+
+The custom source is then use fo
