@@ -46,4 +46,6 @@ Randomness.source = { count in
 ````
 
 The custom source is then use for calls to the following functions:
-````swif
+````swift
+Curve25519.Signing.PrivateKey()
+Curve2551
