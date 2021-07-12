@@ -49,4 +49,5 @@ The custom source is then use for calls to the following functions:
 ````swift
 Curve25519.Signing.PrivateKey()
 Curve25519.KeyAgreement.PrivateKey()
-Sy
+SymmetricKey(size:)
+AES.GCM.Nonc
