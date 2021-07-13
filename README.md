@@ -50,4 +50,5 @@ The custom source is then use for calls to the following functions:
 Curve25519.Signing.PrivateKey()
 Curve25519.KeyAgreement.PrivateKey()
 SymmetricKey(size:)
-AES.GCM.Nonc
+AES.GCM.Nonce()
+AES.GCM.seal(_:key:nonce:authenti
