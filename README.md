@@ -51,4 +51,9 @@ Curve25519.Signing.PrivateKey()
 Curve25519.KeyAgreement.PrivateKey()
 SymmetricKey(size:)
 AES.GCM.Nonce()
-AES.GCM.seal(_:key:nonce:authenti
+AES.GCM.seal(_:key:nonce:authenticating)
+````
+
+### Signing
+
+Signing i
