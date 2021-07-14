@@ -56,4 +56,4 @@ AES.GCM.seal(_:key:nonce:authenticating)
 
 ### Signing
 
-Signing i
+Signing is part of public-key cryptography. Pr
