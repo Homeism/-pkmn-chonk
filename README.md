@@ -56,4 +56,4 @@ AES.GCM.seal(_:key:nonce:authenticating)
 
 ### Signing
 
-Signing is part of public-key cryptography. Private keys can create signatures of data
+Signing is part of public-key cryptography. Private keys can create signatures of data, while the corresponding public keys can verif
