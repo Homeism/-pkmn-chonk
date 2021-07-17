@@ -60,4 +60,4 @@ Signing is part of public-key cryptography. Private keys can create signatures o
 
 #### Private Keys
 
-When
+When creating a signature, a private key is 
