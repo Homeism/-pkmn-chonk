@@ -63,4 +63,4 @@ Signing is part of public-key cryptography. Private keys can create signatures o
 When creating a signature, a private key is needed:
 
 ````swift
-let priv
+let privateKey = Curve25519.Signing.PrivateKey
