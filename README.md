@@ -60,4 +60,7 @@ Signing is part of public-key cryptography. Private keys can create signatures o
 
 #### Private Keys
 
-When creating a signature, a private key is 
+When creating a signature, a private key is needed:
+
+````swift
+let priv
