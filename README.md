@@ -69,4 +69,5 @@ let privateKey = Curve25519.Signing.PrivateKey()
 When the key is already available:
 
 ````swift
-let privateKey = try Ed255
+let privateKey = try Ed25519.PrivateKey(rawRepresentation: data)
+``
