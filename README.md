@@ -66,4 +66,7 @@ When creating a signature, a private key is needed:
 let privateKey = Curve25519.Signing.PrivateKey()
 ````
 
-When the key is already av
+When the key is already available:
+
+````swift
+let privateKey = try Ed255
