@@ -70,4 +70,6 @@ When the key is already available:
 
 ````swift
 let privateKey = try Ed25519.PrivateKey(rawRepresentation: data)
-``
+````
+
+Private keys can be converted
