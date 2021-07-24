@@ -78,4 +78,6 @@ Private keys can be converted to data:
 let data = privateKey.rawRepresentation
 ````
 
-#### Public 
+#### Public Keys
+
+Public keys are used to verify signature
