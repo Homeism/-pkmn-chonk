@@ -80,4 +80,5 @@ let data = privateKey.rawRepresentation
 
 #### Public Keys
 
-Public keys are used to verify signature
+Public keys are used to verify signatures. 
+Public keys can be c
