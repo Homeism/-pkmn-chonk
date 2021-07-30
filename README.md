@@ -87,4 +87,4 @@ Public keys can be created from a private key:
 let publicKey = privateKey.publicKey
 ````
 
-O
+Or, when the public key is available as data
