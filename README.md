@@ -83,4 +83,8 @@ let data = privateKey.rawRepresentation
 Public keys are used to verify signatures. 
 Public keys can be created from a private key:
 
-````swif
+````swift
+let publicKey = privateKey.publicKey
+````
+
+O
