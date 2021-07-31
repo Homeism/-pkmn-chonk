@@ -87,4 +87,7 @@ Public keys can be created from a private key:
 let publicKey = privateKey.publicKey
 ````
 
-Or, when the public key is available as data
+Or, when the public key is available as data:
+
+````swift
+let publicKey = try Curve25519.S
