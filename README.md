@@ -93,4 +93,6 @@ Or, when the public key is available as data:
 let publicKey = try Curve25519.Signing.PublicKey(rawRepresentation: data)
 ````
 
-Publi
+Public keys can be converted to data:
+
+````swift
