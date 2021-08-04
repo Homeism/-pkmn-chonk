@@ -101,4 +101,7 @@ let data = publicKey.rawRepresentation
 
 #### Signing
 
-To create a signature with a priv
+To create a signature with a private key:
+
+````swift
+let signature = privateK
