@@ -107,4 +107,6 @@ To create a signature with a private key:
 let signature = privateKey.signature(for: data)
 ````
 
-#### Ve
+#### Verifying Signatures
+
+To verify a signatur
