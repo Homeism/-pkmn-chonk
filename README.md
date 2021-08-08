@@ -109,4 +109,6 @@ let signature = privateKey.signature(for: data)
 
 #### Verifying Signatures
 
-To verify a signatur
+To verify a signature with a public key:
+
+````swift
