@@ -112,4 +112,7 @@ let signature = privateKey.signature(for: data)
 To verify a signature with a public key:
 
 ````swift
-let result: Bool = publicKey.isValidSign
+let result: Bool = publicKey.isValidSignature(signature, for: data)
+````
+
+##
