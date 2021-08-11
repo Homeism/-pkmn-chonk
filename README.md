@@ -117,4 +117,4 @@ let result: Bool = publicKey.isValidSignature(signature, for: data)
 
 ### Key Agreement
 
-Users can exchange pu
+Users can exchange public keys in order to establish a share
