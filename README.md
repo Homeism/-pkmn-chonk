@@ -115,4 +115,6 @@ To verify a signature with a public key:
 let result: Bool = publicKey.isValidSignature(signature, for: data)
 ````
 
-##
+### Key Agreement
+
+Users can exchange pu
