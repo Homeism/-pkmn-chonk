@@ -121,4 +121,7 @@ Users can exchange public keys in order to establish a shared secret.
 
 #### Private & Public keys
 
-The creation of private keys is analogous to the signature 
+The creation of private keys is analogous to the signature case above.
+
+````swift
+let privateK
