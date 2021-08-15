@@ -121,4 +121,4 @@ Users can exchange public keys in order to establish a shared secret.
 
 #### Private & Public keys
 
-The
+The creation of private keys is analogous to the signature 
