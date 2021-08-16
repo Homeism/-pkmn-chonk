@@ -124,4 +124,4 @@ Users can exchange public keys in order to establish a shared secret.
 The creation of private keys is analogous to the signature case above.
 
 ````swift
-let privateK
+let privateKey = Curve25519.KeyAgreement.Privat
