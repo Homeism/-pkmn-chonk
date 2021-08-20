@@ -129,4 +129,4 @@ let privateKey = Curve25519.KeyAgreement.PrivateKey()
 
 #### Calculating shared secrets
 
-Shared secrets can be calculated by both parti
+Shared secrets can be calculated by both parties, using their private key together wit
