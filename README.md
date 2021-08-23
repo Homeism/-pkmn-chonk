@@ -132,4 +132,7 @@ let privateKey = Curve25519.KeyAgreement.PrivateKey()
 Shared secrets can be calculated by both parties, using their private key together with the received public key.
 
 ````swift
-let secret = try privateKey.sharedSecretFromKeyAgreement(with: other
+let secret = try privateKey.sharedSecretFromKeyAgreement(with: otherPublicKey)
+
+// Access the raw data
+let data: Da
