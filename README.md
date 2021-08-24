@@ -135,4 +135,7 @@ Shared secrets can be calculated by both parties, using their private key togeth
 let secret = try privateKey.sharedSecretFromKeyAgreement(with: otherPublicKey)
 
 // Access the raw data
-let data: Da
+let data: Data = secret.rawData
+````
+
+#### D
