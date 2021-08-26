@@ -138,4 +138,6 @@ let secret = try privateKey.sharedSecretFromKeyAgreement(with: otherPublicKey)
 let data: Data = secret.rawData
 ````
 
-#### D
+#### Deriving key material
+
+Shared secre
