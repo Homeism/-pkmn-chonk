@@ -140,4 +140,4 @@ let data: Data = secret.rawData
 
 #### Deriving key material
 
-Shared secre
+Shared secrets should not be used directly. Instead, f
