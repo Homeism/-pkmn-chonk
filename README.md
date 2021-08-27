@@ -140,4 +140,4 @@ let data: Data = secret.rawData
 
 #### Deriving key material
 
-Shared secrets should not be used directly. Instead, f
+Shared secrets should not be used directly. Instead, feed them into a *Key Derivation Function* (KDF), to 
