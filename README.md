@@ -143,4 +143,7 @@ let data: Data = secret.rawData
 Shared secrets should not be used directly. Instead, feed them into a *Key Derivation Function* (KDF), to increase the strength of the keys.
 
 ````swift
-let salt = "My application".data(using: .utf8)
+let salt = "My application".data(using: .utf8)!
+let sharedInfo = ...
+
+let key = tr
