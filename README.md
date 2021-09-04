@@ -146,4 +146,4 @@ Shared secrets should not be used directly. Instead, feed them into a *Key Deriv
 let salt = "My application".data(using: .utf8)!
 let sharedInfo = ...
 
-let key = tr
+let key = try secret.hkdfDerivedSymmetricKey(
