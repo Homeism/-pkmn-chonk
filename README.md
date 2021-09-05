@@ -148,4 +148,5 @@ let sharedInfo = ...
 
 let key = try secret.hkdfDerivedSymmetricKey(
             using: .sha256, 
-           
+            salt: salt, 
+            sharedInfo:
