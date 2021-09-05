@@ -147,3 +147,5 @@ let salt = "My application".data(using: .utf8)!
 let sharedInfo = ...
 
 let key = try secret.hkdfDerivedSymmetricKey(
+            using: .sha256, 
+           
