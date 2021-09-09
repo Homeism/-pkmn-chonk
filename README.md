@@ -150,4 +150,6 @@ let key = try secret.hkdfDerivedSymmetricKey(
             using: .sha256, 
             salt: salt, 
             sharedInfo: Data, 
-            outputByteCoun
+            outputByteCount: 32)
+            
+// Access the raw
