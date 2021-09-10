@@ -152,4 +152,6 @@ let key = try secret.hkdfDerivedSymmetricKey(
             sharedInfo: Data, 
             outputByteCount: 32)
             
-// Access the raw
+// Access the raw data
+let data: Data = key.rawData
+````
