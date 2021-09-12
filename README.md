@@ -155,3 +155,7 @@ let key = try secret.hkdfDerivedSymmetricKey(
 // Access the raw data
 let data: Data = key.rawData
 ````
+
+## Encryption
+
+`CryptoKit25519` suppo
