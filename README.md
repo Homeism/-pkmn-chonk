@@ -160,4 +160,7 @@ let data: Data = key.rawData
 
 `CryptoKit25519` supports `AES` in `GCM`(Galois Counter Mode).
 
-### En
+### Encrypting data
+
+````swift
+let sealedBox = tr
