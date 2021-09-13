@@ -158,4 +158,6 @@ let data: Data = key.rawData
 
 ## Encryption
 
-`CryptoKit25519` suppo
+`CryptoKit25519` supports `AES` in `GCM`(Galois Counter Mode).
+
+### En
