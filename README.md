@@ -163,4 +163,5 @@ let data: Data = key.rawData
 ### Encrypting data
 
 ````swift
-let sealedBox = tr
+let sealedBox = try AES.GCM.seal(message, using: key)
+``
