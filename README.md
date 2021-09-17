@@ -166,4 +166,4 @@ let data: Data = key.rawData
 let sealedBox = try AES.GCM.seal(message, using: key)
 ````
 
-It's also possible to provide a custom 
+It's also possible to provide a custom nonce, and additional data to be 
