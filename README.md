@@ -169,4 +169,4 @@ let sealedBox = try AES.GCM.seal(message, using: key)
 It's also possible to provide a custom nonce, and additional data to be authenticated.
 
 ````swift
-let sealedBox = try AES.GCM.seal(message, using: key, 
+let sealedBox = try AES.GCM.seal(message, using: key, nonce: AES.GCM.Nonce(), authenticating: auth
