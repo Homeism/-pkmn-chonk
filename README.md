@@ -175,4 +175,7 @@ let sealedBox = try AES.GCM.seal(message, using: key, nonce: AES.GCM.Nonce(), au
 ### Decrypting data
 
 ````swift
-let plaintext = try AES.GCM
+let plaintext = try AES.GCM.open(sealedBox, using: key)
+````
+
+## Attribut
