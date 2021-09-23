@@ -180,4 +180,4 @@ let plaintext = try AES.GCM.open(sealedBox, using: key)
 
 ## Attribution
 
-This framework uses the Swif
+This framework uses the Swift Wrapper [CEd25519](https://gi
