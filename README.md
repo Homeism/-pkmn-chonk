@@ -182,4 +182,4 @@ let plaintext = try AES.GCM.open(sealedBox, using: key)
 
 This framework uses the Swift Wrapper [CEd25519](https://github.com/christophhagen/CEd25519), as well as the [CryptoSwift library](https://github.com/krzyzanowskim/CryptoSwift) for the HKDF and Encryption.
 
-The implementation o
+The implementation of the signature generation was partly ins
