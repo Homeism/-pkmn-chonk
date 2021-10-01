@@ -2,4 +2,7 @@
 //  CryptoKitError.swift
 //  CCurve25519
 //
-//  Created by
+//  Created by Christoph on 13.01.20.
+//
+
+import Foundation
