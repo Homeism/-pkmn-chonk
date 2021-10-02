@@ -6,3 +6,6 @@
 //
 
 import Foundation
+
+/// General CryptoKit errors.
+public enum Cry
