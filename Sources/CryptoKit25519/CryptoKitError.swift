@@ -10,3 +10,5 @@ import Foundation
 /// General CryptoKit errors.
 public enum CryptoKitError: Error {
     
+    case incorrectParameterSize
+  
