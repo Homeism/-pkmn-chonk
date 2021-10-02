@@ -8,4 +8,5 @@
 import Foundation
 
 /// General CryptoKit errors.
-public enum Cry
+public enum CryptoKitError: Error {
+    
