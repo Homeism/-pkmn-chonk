@@ -11,4 +11,5 @@ import Foundation
 public enum CryptoKitError: Error {
     
     case incorrectParameterSize
-  
+    
+    /// The key material has invalid l
