@@ -12,4 +12,6 @@ public enum CryptoKitError: Error {
     
     case incorrectParameterSize
     
-    /// The key material has invalid l
+    /// The key material has invalid length
+    case invalidKeyLength
+    
