@@ -15,4 +15,6 @@ public enum CryptoKitError: Error {
     /// The key material has invalid length
     case invalidKeyLength
     
-    /// The key agreement could not be c
+    /// The key agreement could not be completed.
+    case keyAgreementFailed
+    
