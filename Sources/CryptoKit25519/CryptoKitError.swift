@@ -18,3 +18,4 @@ public enum CryptoKitError: Error {
     /// The key agreement could not be completed.
     case keyAgreementFailed
     
+    /// The derivation of a symmetric
