@@ -21,4 +21,4 @@ public enum CryptoKitError: Error {
     /// The derivation of a symmetric key could not be completed.
     case keyDerivationFailed
     
-    /// The s
+    /// The source for randomness was not set (`Rando
