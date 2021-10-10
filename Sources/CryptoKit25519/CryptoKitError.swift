@@ -19,4 +19,6 @@ public enum CryptoKitError: Error {
     case keyAgreementFailed
     
     /// The derivation of a symmetric key could not be completed.
-    c
+    case keyDerivationFailed
+    
+    /// The s
