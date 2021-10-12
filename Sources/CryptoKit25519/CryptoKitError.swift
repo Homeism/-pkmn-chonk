@@ -24,4 +24,4 @@ public enum CryptoKitError: Error {
     /// The source for randomness was not set (`Randomness.source`)
     case noRandomnessSource
     
-    /// The rand
+    /// The randomness source was not able to provid
