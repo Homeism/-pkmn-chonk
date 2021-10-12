@@ -22,4 +22,6 @@ public enum CryptoKitError: Error {
     case keyDerivationFailed
     
     /// The source for randomness was not set (`Randomness.source`)
-    case noRandomn
+    case noRandomnessSource
+    
+    /// The rand
