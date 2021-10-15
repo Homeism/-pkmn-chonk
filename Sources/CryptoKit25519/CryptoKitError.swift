@@ -25,4 +25,6 @@ public enum CryptoKitError: Error {
     case noRandomnessSource
     
     /// The randomness source was not able to provide randomness
-    case noRandomnessAv
+    case noRandomnessAvailable
+    
+    /// The encryption of
