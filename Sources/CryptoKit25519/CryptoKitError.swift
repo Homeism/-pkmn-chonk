@@ -28,4 +28,6 @@ public enum CryptoKitError: Error {
     case noRandomnessAvailable
     
     /// The encryption of data couldn't be completed
-    case en
+    case encryptionFailed
+    
+    /// Th
