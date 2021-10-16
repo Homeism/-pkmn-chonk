@@ -30,4 +30,4 @@ public enum CryptoKitError: Error {
     /// The encryption of data couldn't be completed
     case encryptionFailed
     
-    /// Th
+    /// The decryption of data couldn't be comp
