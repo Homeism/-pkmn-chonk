@@ -5,4 +5,8 @@
 //  Created by Christoph on 08.01.20.
 //
 
-import Foundatio
+import Foundation
+
+public enum Curve25519 {
+    
+    /// Th
