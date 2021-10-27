@@ -10,4 +10,6 @@ import Foundation
 public enum Curve25519 {
     
     /// The number of bytes in a Curve25519 private or public key
-    public static let keyL
+    public static let keyLength = 32
+    
+    /// The length of a SH
