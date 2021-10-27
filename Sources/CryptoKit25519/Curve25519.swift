@@ -9,4 +9,5 @@ import Foundation
 
 public enum Curve25519 {
     
-    /// The number of bytes in a Curve25519 priv
+    /// The number of bytes in a Curve25519 private or public key
+    public static let keyL
