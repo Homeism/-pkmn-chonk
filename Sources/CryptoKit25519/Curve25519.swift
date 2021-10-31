@@ -13,4 +13,7 @@ public enum Curve25519 {
     public static let keyLength = 32
     
     /// The length of a SHA512 hash
-    public static let SHA5
+    public static let SHA512length = 64
+    
+    /**
+     Create new 
