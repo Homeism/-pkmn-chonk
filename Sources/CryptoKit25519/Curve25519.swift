@@ -16,4 +16,5 @@ public enum Curve25519 {
     public static let SHA512length = 64
     
     /**
-     Create new 
+     Create new random bytes for a private key.
+     - Th
