@@ -17,4 +17,5 @@ public enum Curve25519 {
     
     /**
      Create new random bytes for a private key.
-     - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAva
+     - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAvailable`
+     - Returns: 32
