@@ -25,4 +25,5 @@ public enum Curve25519 {
     }
 }
 
-extension A
+extension Array where Element == UInt8 {
+    
