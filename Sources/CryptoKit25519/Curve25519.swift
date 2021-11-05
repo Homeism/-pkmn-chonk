@@ -21,4 +21,4 @@ public enum Curve25519 {
      - Returns: 32 new random bytes.
      */
     static func newKey() throws -> [UInt8] {
-     
+        return try Randomness.randomBytes(cou
