@@ -32,4 +32,5 @@ extension Array where Element == UInt8 {
         
         data[0] &= 248
         data[31] &= 63
-       
+        data[31] |= 64
+        return data
