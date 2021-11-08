@@ -30,4 +30,6 @@ extension Array where Element == UInt8 {
     var normalized: [Element] {
         var data = self
         
-        da
+        data[0] &= 248
+        data[31] &= 63
+       
