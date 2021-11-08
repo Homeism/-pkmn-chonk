@@ -28,4 +28,6 @@ public enum Curve25519 {
 extension Array where Element == UInt8 {
     
     var normalized: [Element] {
+        var data = self
         
+        da
