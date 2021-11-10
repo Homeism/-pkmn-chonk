@@ -8,4 +8,4 @@
 import Foundation
 import CryptoSwift
 
-/// A container for Adva
+/// A container for Advanced Encryption Standard (AES) ciphers.
