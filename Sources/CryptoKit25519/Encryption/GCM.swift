@@ -67,3 +67,20 @@ public extension AES {
                 throw CryptoKitError.decryptionFailed
             }
             return Data(plaintext)
+        }
+    }
+}
+
+extension Data {
+    
+    var bytes: [UInt8] {
+        .init(self)
+    }
+}
+
+extension Array where Array.Element == UInt8 {
+    
+    var data: Data {
+        return .init(self)
+    }
+}
