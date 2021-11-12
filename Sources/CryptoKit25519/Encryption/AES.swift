@@ -9,3 +9,6 @@ import Foundation
 import CryptoSwift
 
 /// A container for Advanced Encryption Standard (AES) ciphers.
+public enum AES {
+    
+}
