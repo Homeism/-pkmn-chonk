@@ -7,4 +7,6 @@
 
 import Foundation
 
-public extension 
+public extension AES.GCM {
+    
+    /// A value used once du
