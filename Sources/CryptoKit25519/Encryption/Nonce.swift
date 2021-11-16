@@ -9,4 +9,4 @@ import Foundation
 
 public extension AES.GCM {
     
-    /// A value used once du
+    /// A value used once during a cryptographic operation, and then dis
