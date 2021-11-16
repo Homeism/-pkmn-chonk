@@ -9,4 +9,7 @@ import Foundation
 
 public extension AES.GCM {
     
-    /// A value used once during a cryptographic operation, and then dis
+    /// A value used once during a cryptographic operation, and then discarded.
+    struct Nonce {
+        
+    
