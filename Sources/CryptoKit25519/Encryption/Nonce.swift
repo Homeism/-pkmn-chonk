@@ -12,4 +12,4 @@ public extension AES.GCM {
     /// A value used once during a cryptographic operation, and then discarded.
     struct Nonce {
         
-    
+        /// The length of a AES GCM length 
