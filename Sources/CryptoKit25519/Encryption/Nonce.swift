@@ -15,4 +15,5 @@ public extension AES.GCM {
         /// The length of a AES GCM length in bytes.
         public static let length = 12
         
-        /// The raw byt
+        /// The raw bytes of the nonce
+        var bytes: [UInt8
