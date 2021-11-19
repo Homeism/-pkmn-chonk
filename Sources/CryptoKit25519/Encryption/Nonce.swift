@@ -19,4 +19,6 @@ public extension AES.GCM {
         var bytes: [UInt8]
         
         /**
-         Cr
+         Creates a new random nonce.
+         
+      
