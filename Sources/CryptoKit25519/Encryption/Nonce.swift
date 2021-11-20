@@ -21,4 +21,6 @@ public extension AES.GCM {
         /**
          Creates a new random nonce.
          
-         - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRando
+         - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAvailable`
+         */
+ 
