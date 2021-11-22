@@ -23,4 +23,5 @@ public extension AES.GCM {
          
          - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAvailable`
          */
- 
+        public init() throws {
+   
