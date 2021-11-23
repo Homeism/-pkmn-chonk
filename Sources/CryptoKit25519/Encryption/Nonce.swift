@@ -25,4 +25,7 @@ public extension AES.GCM {
          */
         public init() throws {
             self.bytes = try Randomness.randomBytes(count: Nonce.length)
-       
+        }
+        
+        /**
+         Creates a 
