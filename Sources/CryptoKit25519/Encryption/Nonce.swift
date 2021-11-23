@@ -24,4 +24,5 @@ public extension AES.GCM {
          - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAvailable`
          */
         public init() throws {
-            self.bytes = try Randomness.randomBy
+            self.bytes = try Randomness.randomBytes(count: Nonce.length)
+       
