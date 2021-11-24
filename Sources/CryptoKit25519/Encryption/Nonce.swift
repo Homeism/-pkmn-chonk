@@ -28,4 +28,6 @@ public extension AES.GCM {
         }
         
         /**
-         Creates a 
+         Creates a nonce from the given data.
+         
+     
