@@ -30,4 +30,4 @@ public extension AES.GCM {
         /**
          Creates a nonce from the given data.
          
-         Unless your use case calls for a non
+         Unless your use case calls for a nonce with a specific value, use the init() method to 
