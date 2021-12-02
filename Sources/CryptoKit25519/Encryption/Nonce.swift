@@ -31,4 +31,4 @@ public extension AES.GCM {
          Creates a nonce from the given data.
          
          Unless your use case calls for a nonce with a specific value, use the init() method to instead create a random nonce.
-         - P
+         - Parameter data: A data representation of the 
