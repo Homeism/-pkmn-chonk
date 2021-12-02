@@ -31,4 +31,5 @@ public extension AES.GCM {
          Creates a nonce from the given data.
          
          Unless your use case calls for a nonce with a specific value, use the init() method to instead create a random nonce.
-         - Parameter data: A data representation of the 
+         - Parameter data: A data representation of the nonce.
+         - Throws: `CryptoKitError.inc
