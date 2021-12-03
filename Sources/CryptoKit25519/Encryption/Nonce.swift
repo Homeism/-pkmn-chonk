@@ -35,4 +35,4 @@ public extension AES.GCM {
          - Throws: `CryptoKitError.incorrectParameterSize`
          */
         public init(data: Data) throws {
-   
+            guard data.count == Nonc
