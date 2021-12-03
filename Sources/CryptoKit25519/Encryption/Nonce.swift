@@ -34,4 +34,5 @@ public extension AES.GCM {
          - Parameter data: A data representation of the nonce.
          - Throws: `CryptoKitError.incorrectParameterSize`
          */
-       
+        public init(data: Data) throws {
+   
