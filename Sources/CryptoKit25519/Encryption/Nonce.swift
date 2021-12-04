@@ -38,4 +38,5 @@ public extension AES.GCM {
             guard data.count == Nonce.length else {
                 throw CryptoKitError.incorrectParameterSize
             }
-   
+            self.bytes = data.bytes
+      
