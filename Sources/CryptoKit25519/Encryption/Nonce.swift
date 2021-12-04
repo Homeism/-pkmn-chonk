@@ -39,4 +39,6 @@ public extension AES.GCM {
                 throw CryptoKitError.incorrectParameterSize
             }
             self.bytes = data.bytes
-      
+        }
+        
+        init(bytes: [UInt8]) {
