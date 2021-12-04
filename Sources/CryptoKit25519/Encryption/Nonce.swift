@@ -36,4 +36,6 @@ public extension AES.GCM {
          */
         public init(data: Data) throws {
             guard data.count == Nonce.length else {
-                throw CryptoK
+                throw CryptoKitError.incorrectParameterSize
+            }
+   
