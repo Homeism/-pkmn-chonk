@@ -45,4 +45,5 @@ public extension AES.GCM {
             self.bytes = bytes
         }
         
-        /// T
+        /// The raw data of the nonce
+        public v
