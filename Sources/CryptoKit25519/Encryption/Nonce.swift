@@ -48,4 +48,9 @@ public extension AES.GCM {
         /// The raw data of the nonce
         public var rawRepresentation: Data {
             return bytes.data
-     
+        }
+    }
+    
+}
+
+extension AES.GCM.Nonce
