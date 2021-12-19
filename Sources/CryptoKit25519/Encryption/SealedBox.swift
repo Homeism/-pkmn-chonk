@@ -23,3 +23,34 @@ public extension AES.GCM {
         
         /// The encrypted data.
         public let ciphertext: Data
+        
+        /// An authentication tag.
+        public let tag: Data
+        
+        /// The nonce used to encrypt the data.
+        public let nonce: Nonce
+        
+        public var combined: Data {
+            return nonce.rawRepresentation + ciphertext + tag
+        }
+        
+        public init(nonce: Nonce, ciphertext: Data, tag: Data) throws {
+            guard tag.count == AES.GCM.tagLength else {
+                throw CryptoKitError.incorrectParameterSize
+            }
+            self.nonce = nonce
+            self.ciphertext = ciphertext
+            self.tag = tag
+        }
+        
+        public init(combined: Data) throws {
+            guard combined.count > Nonce.length + AES.GCM.tagLength else {
+                throw CryptoKitError.incorrectParameterSize
+            }
+            self.nonce = try Nonce(data: combined[0..<Nonce.length])
+            let tagStart = combined.count - AES.GCM.tagLength
+            self.ciphertext = combined[Nonce.length..<tagStart]
+            self.tag = combined[tagStart...]
+        }
+    }
+}
