@@ -10,4 +10,4 @@ import Foundation
 public extension Curve25519 {
     
     /**
-     A mechanism used to create a shared secret between two us
+     A mechanism used to create a shared secret between two users by performing X25519 key agre
