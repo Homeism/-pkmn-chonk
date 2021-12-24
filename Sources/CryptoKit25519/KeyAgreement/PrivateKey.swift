@@ -31,3 +31,46 @@ public extension Curve25519.KeyAgreement {
         /**
          Creates a Curve25519 private key for key agreement from a collection of bytes.
          - Parameter rawRepresentation: A raw representation of the key as data.
+         - Throws: `CryptoKitError.invalidKeyLength`, if the key length is not `Curve25519.keyLength`.
+         */
+        public init(rawRepresentation: Data) throws {
+            guard rawRepresentation.count == Curve25519.keyLength else {
+                throw CryptoKitError.invalidKeyLength
+            }
+            self.bytes = [UInt8](rawRepresentation)
+        }
+        
+        /// The corresponding public key.
+        public var publicKey: Curve25519.KeyAgreement.PublicKey {
+            // Length is valid, so no error can be thrown.
+            return PublicKey(bytes: publicKeyBytes)
+        }
+        
+        /// The raw bytes of the corresponding public key
+        private var publicKeyBytes: [UInt8] {
+            var pubBuffer = [UInt8](repeating: 0, count: Curve25519.keyLength)
+            
+            let _: Int32 = pubBuffer.withUnsafeMutableBytes { keyPtr in
+                bytes.normalized.withUnsafeBytes { privPtr in
+                    Curve25519.KeyAgreement.PrivateKey.basepoint.withUnsafeBytes {
+                        curve25519_donna(
+                            keyPtr.baseAddress!.assumingMemoryBound(to: UInt8.self),
+                            privPtr.baseAddress!.assumingMemoryBound(to: UInt8.self),
+                            $0.baseAddress!.assumingMemoryBound(to: UInt8.self))
+                    }
+                }
+            }
+            
+            return pubBuffer
+        }
+        
+        /// The raw bytes of the key.
+        public var rawRepresentation: Data {
+            return Data(bytes)
+        }
+        
+        /**
+         Computes a shared secret with the provided public key from another party.
+         - Parameter publicKeyShare: The public key from another party to be combined with the private key from this user to create the shared secret.
+         - Returns: The computed shared secret.
+         - Throws: `CryptoKitError.keyAgreementFailed`
