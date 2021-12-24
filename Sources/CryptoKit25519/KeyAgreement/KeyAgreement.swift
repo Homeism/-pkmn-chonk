@@ -12,4 +12,7 @@ public extension Curve25519 {
     /**
      A mechanism used to create a shared secret between two users by performing X25519 key agreement.
      */
-    enum KeyAgreement
+    enum KeyAgreement {
+        
+    }
+}
