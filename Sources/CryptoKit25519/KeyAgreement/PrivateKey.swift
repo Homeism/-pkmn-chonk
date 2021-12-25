@@ -74,3 +74,29 @@ public extension Curve25519.KeyAgreement {
          - Parameter publicKeyShare: The public key from another party to be combined with the private key from this user to create the shared secret.
          - Returns: The computed shared secret.
          - Throws: `CryptoKitError.keyAgreementFailed`
+         */
+        public func sharedSecretFromKeyAgreement(with publicKeyShare: Curve25519.KeyAgreement.PublicKey) throws -> SharedSecret {
+            
+            var sharedKey = [UInt8](repeating: 0, count: Curve25519.keyLength)
+            let result: Int32 = sharedKey.withUnsafeMutableBytes { key in
+                bytes.withUnsafeBytes { priv in
+                    publicKeyShare.bytes.withUnsafeBytes { pub in
+                        curve25519_donna(
+                            key.bindMemory(to: UInt8.self).baseAddress,
+                            priv.bindMemory(to: UInt8.self).baseAddress,
+                            pub.bindMemory(to: UInt8.self).baseAddress)
+                    }
+                }
+            }
+            guard result == 0 else {
+                throw CryptoKitError.keyAgreementFailed
+            }
+            return SharedSecret(bytes: sharedKey)
+        }
+        
+    }
+}
+
+extension Curve25519.KeyAgreement.PrivateKey: Hashable {
+    
+}
