@@ -6,3 +6,5 @@
 //
 
 import Foundation
+
+public extension Curve25519.KeyAgreement {
