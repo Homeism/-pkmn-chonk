@@ -10,4 +10,6 @@ import Foundation
 public extension Curve25519.KeyAgreement {
     
     /// A Curve25519 public key used to verify cryptographic signatures.
-    stru
+    struct PublicKey {
+        
+        /// 
