@@ -13,4 +13,6 @@ public extension Curve25519.KeyAgreement {
     struct PublicKey {
         
         /// The length of a signature (in bytes)
-        public static let signatureLength =
+        public static let signatureLength = 64
+        
+        /// The key (32
