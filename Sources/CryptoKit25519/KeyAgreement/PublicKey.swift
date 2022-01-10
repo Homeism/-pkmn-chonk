@@ -17,4 +17,6 @@ public extension Curve25519.KeyAgreement {
         
         /// The key (32 bytes)
         let bytes: [UInt8]
-     
+        
+        /**
+         Create
