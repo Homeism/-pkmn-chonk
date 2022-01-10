@@ -15,4 +15,6 @@ public extension Curve25519.KeyAgreement {
         /// The length of a signature (in bytes)
         public static let signatureLength = 64
         
-        /// The key (32
+        /// The key (32 bytes)
+        let bytes: [UInt8]
+     
