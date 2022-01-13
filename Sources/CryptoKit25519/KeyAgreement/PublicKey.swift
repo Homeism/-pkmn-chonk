@@ -19,4 +19,5 @@ public extension Curve25519.KeyAgreement {
         let bytes: [UInt8]
         
         /**
-         Creates a Curve25519 public key from a data representatio
+         Creates a Curve25519 public key from a data representation.
+         - Param
