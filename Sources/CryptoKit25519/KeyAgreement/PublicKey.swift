@@ -20,4 +20,4 @@ public extension Curve25519.KeyAgreement {
         
         /**
          Creates a Curve25519 public key from a data representation.
-         - Parameter rawRepresentation: A representation
+         - Parameter rawRepresentation: A representation of the key as data from which to create t
