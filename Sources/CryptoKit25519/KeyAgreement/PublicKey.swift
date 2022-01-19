@@ -25,4 +25,5 @@ public extension Curve25519.KeyAgreement {
          */
         public init(rawRepresentation: Data) throws {
             guard rawRepresentation.count == Curve25519.keyLength else {
-       
+                throw CryptoKitError.invalidKeyLength
+  
