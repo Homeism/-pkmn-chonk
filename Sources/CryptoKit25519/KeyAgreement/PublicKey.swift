@@ -23,4 +23,5 @@ public extension Curve25519.KeyAgreement {
          - Parameter rawRepresentation: A representation of the key as data from which to create the key.
          - Throws: `CryptoKitError.invalidKeyLength`, if the key length is not `Curve25519.keyLength`.
          */
-        public init(rawRepresentation: Data
+        public init(rawRepresentation: Data) throws {
+            guard rawRepresentati
