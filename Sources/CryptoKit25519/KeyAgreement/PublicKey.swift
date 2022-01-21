@@ -27,4 +27,5 @@ public extension Curve25519.KeyAgreement {
             guard rawRepresentation.count == Curve25519.keyLength else {
                 throw CryptoKitError.invalidKeyLength
             }
-            self.b
+            self.bytes = [UInt8](rawRepresentation)
+        }
