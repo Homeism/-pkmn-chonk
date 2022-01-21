@@ -30,4 +30,5 @@ public extension Curve25519.KeyAgreement {
             self.bytes = [UInt8](rawRepresentation)
         }
         
-        init(bytes: [UInt8])
+        init(bytes: [UInt8]) {
+            self.bytes = byt
