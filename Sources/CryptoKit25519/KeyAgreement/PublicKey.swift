@@ -34,4 +34,5 @@ public extension Curve25519.KeyAgreement {
             self.bytes = bytes
         }
         
-        ///
+        /// The raw bytes of the key.
+        pub
