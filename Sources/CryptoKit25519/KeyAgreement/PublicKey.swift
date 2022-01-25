@@ -38,4 +38,9 @@ public extension Curve25519.KeyAgreement {
         public var rawRepresentation: Data {
             return Data(bytes)
         }
-       
+        
+        
+    }
+}
+
+extension Curve25519.KeyAgreem
