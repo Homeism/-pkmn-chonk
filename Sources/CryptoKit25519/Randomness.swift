@@ -1,3 +1,5 @@
 //
 //  Randomness.swift
-//  CCurve255
+//  CCurve25519
+//
+//  Created by Christoph on 13
