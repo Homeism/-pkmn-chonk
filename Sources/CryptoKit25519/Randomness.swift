@@ -10,4 +10,7 @@ import SwiftGlibc
 import Foundation
 #endif
 
-public enu
+public enum Randomness {
+    
+    /**
+    The external sour
