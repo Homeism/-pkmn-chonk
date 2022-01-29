@@ -15,4 +15,4 @@ public enum Randomness {
     /**
     The external source of randomness.
      
-     - Note: Thi
+     - Note: This source must only be set if `SecRandomC
