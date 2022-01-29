@@ -15,4 +15,5 @@ public enum Randomness {
     /**
     The external source of randomness.
      
-     - Note: This source must only be set if `SecRandomC
+     - Note: This source must only be set if `SecRandomCopyBytes` is unavailable.
+     It is a
