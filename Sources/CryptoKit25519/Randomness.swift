@@ -13,4 +13,6 @@ import Foundation
 public enum Randomness {
     
     /**
-    The external sour
+    The external source of randomness.
+     
+     - Note: Thi
