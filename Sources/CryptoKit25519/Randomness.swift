@@ -17,4 +17,5 @@ public enum Randomness {
      
      - Note: This source must only be set if `SecRandomCopyBytes` is unavailable.
      It is available on the following platforms:
-     iOS 2.0+, macOS 10.7+, tvOS 9.0+,
+     iOS 2.0+, macOS 10.7+, tvOS 9.0+, watchOS 2.0+, Mac Catalyst 13.0+
+  
