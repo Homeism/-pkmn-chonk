@@ -19,4 +19,6 @@ public enum Randomness {
      It is available on the following platforms:
      iOS 2.0+, macOS 10.7+, tvOS 9.0+, watchOS 2.0+, Mac Catalyst 13.0+
      
-     Provide a custom randomness source to suit
+     Provide a custom randomness source to suit your needs.
+     
+     Must be set before any c
