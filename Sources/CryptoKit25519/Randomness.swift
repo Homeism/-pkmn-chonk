@@ -21,4 +21,5 @@ public enum Randomness {
      
      Provide a custom randomness source to suit your needs.
      
-     Must be set before any c
+     Must be set before any calls to `PrivateKey()`.
+  
