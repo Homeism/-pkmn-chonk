@@ -24,4 +24,4 @@ public enum Randomness {
      Must be set before any calls to `PrivateKey()`.
      
      - Parameter count: The number of bytes to generate
-     - Return
+     - Returns: The random bytes, or nil, if no random data i
