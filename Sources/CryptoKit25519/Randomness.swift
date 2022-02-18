@@ -22,4 +22,5 @@ public enum Randomness {
      Provide a custom randomness source to suit your needs.
      
      Must be set before any calls to `PrivateKey()`.
-  
+     
+     - Parameter count: The nu
