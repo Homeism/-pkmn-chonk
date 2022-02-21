@@ -26,4 +26,4 @@ public enum Randomness {
      - Parameter count: The number of bytes to generate
      - Returns: The random bytes, or nil, if no random data is available.
      */
-    publ
+    public static var source: ((_ cou
