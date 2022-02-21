@@ -26,4 +26,6 @@ public enum Randomness {
      - Parameter count: The number of bytes to generate
      - Returns: The random bytes, or nil, if no random data is available.
      */
-    public static var source: ((_ cou
+    public static var source: ((_ count: Int) -> [UInt8]?)?
+    
+    /**
