@@ -29,3 +29,5 @@ public enum Randomness {
     public static var source: ((_ count: Int) -> [UInt8]?)?
     
     /**
+     Create new random bytes.
+     
