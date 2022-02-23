@@ -30,4 +30,5 @@ public enum Randomness {
     
     /**
      Create new random bytes.
-     - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noR
+     - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAvailable`
+     - Returns: The new 
