@@ -31,4 +31,6 @@ public enum Randomness {
     /**
      Create new random bytes.
      - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAvailable`
-     - Returns: The new 
+     - Returns: The new random bytes.
+     */
+    static func 
