@@ -33,4 +33,5 @@ public enum Randomness {
      - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAvailable`
      - Returns: The new random bytes.
      */
-    static func randomBytes(count: Int) throws -> [
+    static func randomBytes(count: Int) throws -> [UInt8] {
+        // Use custom randomness so
