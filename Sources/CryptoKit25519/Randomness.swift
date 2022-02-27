@@ -34,4 +34,5 @@ public enum Randomness {
      - Returns: The new random bytes.
      */
     static func randomBytes(count: Int) throws -> [UInt8] {
-        // Use custom randomness so
+        // Use custom randomness source
+        guard let randomBytes 
