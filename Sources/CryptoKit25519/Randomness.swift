@@ -39,4 +39,4 @@ public enum Randomness {
             return try randomWithoutSource(count: count)
         }
         
-      
+        guard let data = randomBytes(count)
