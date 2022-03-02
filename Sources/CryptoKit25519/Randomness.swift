@@ -41,4 +41,8 @@ public enum Randomness {
         
         guard let data = randomBytes(count), data.count == count else {
             throw CryptoKitError.noRandomnessAvailable
-       
+        }
+        return data
+    }
+    
+    p
