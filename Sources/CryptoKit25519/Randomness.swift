@@ -45,4 +45,5 @@ public enum Randomness {
         return data
     }
     
-    private static func randomWithoutSource
+    private static func randomWithoutSource(count: Int) throws -> [UInt8] {
+        #if os
