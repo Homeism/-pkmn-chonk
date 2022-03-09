@@ -46,4 +46,6 @@ public enum Randomness {
     }
     
     private static func randomWithoutSource(count: Int) throws -> [UInt8] {
-        #if os
+        #if os(Linux)
+        return randomDefault(count)
+     
