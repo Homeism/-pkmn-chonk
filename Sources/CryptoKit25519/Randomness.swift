@@ -49,4 +49,4 @@ public enum Randomness {
         #if os(Linux)
         return randomDefault(count)
         #else
-        guard #available(iOS 2.0
+        guard #available(iOS 2.0, OSX 10.7, tvOS 9.0, watchOS 2.0, macCatalyst 13.0, *) else 
