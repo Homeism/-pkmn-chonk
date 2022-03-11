@@ -56,3 +56,5 @@ public enum Randomness {
         #endif
     }
     
+    #if !os(Linux)
+    @available(iOS 2.0, 
