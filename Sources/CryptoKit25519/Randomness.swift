@@ -57,4 +57,5 @@ public enum Randomness {
     }
     
     #if !os(Linux)
-    @available(iOS 2.0, OSX 10.7, tvOS 9.0, watchOS 2.0, macCatalyst 13
+    @available(iOS 2.0, OSX 10.7, tvOS 9.0, watchOS 2.0, macCatalyst 13.0, *)
+    private static func secRandom
