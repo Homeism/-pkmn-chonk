@@ -59,4 +59,5 @@ public enum Randomness {
     #if !os(Linux)
     @available(iOS 2.0, OSX 10.7, tvOS 9.0, watchOS 2.0, macCatalyst 13.0, *)
     private static func secRandomBytes(count: Int) throws -> [UInt8] {
-        var keyData = [UInt8](repeating: 0, count: 
+        var keyData = [UInt8](repeating: 0, count: count)
+        let result = keyData.withUnsafeMu
