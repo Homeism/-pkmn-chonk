@@ -64,4 +64,6 @@ public enum Randomness {
             SecRandomCopyBytes(kSecRandomDefault, count, $0.baseAddress!)
         }
         if result == errSecSuccess {
-            r
+            return keyData
+        } else {
+     
