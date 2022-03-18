@@ -63,4 +63,5 @@ public enum Randomness {
         let result = keyData.withUnsafeMutableBytes {
             SecRandomCopyBytes(kSecRandomDefault, count, $0.baseAddress!)
         }
-        if r
+        if result == errSecSuccess {
+            r
