@@ -61,4 +61,6 @@ public enum Randomness {
     private static func secRandomBytes(count: Int) throws -> [UInt8] {
         var keyData = [UInt8](repeating: 0, count: count)
         let result = keyData.withUnsafeMutableBytes {
-            SecRandomCopyBytes(kSecRandomD
+            SecRandomCopyBytes(kSecRandomDefault, count, $0.baseAddress!)
+        }
+        if r
