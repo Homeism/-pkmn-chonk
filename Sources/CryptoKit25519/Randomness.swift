@@ -66,4 +66,4 @@ public enum Randomness {
         if result == errSecSuccess {
             return keyData
         } else {
-     
+            throw CryptoKitError.noRan
