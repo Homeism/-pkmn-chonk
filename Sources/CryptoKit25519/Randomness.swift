@@ -71,4 +71,5 @@ public enum Randomness {
     }
     #endif
     
-    private static func randomDef
+    private static func randomDefault(_ count: Int) -> [UInt8] {
+ 
