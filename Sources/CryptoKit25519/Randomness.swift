@@ -69,4 +69,6 @@ public enum Randomness {
             throw CryptoKitError.noRandomnessAvailable
         }
     }
-    #e
+    #endif
+    
+    private static func randomDef
