@@ -72,4 +72,4 @@ public enum Randomness {
     #endif
     
     private static func randomDefault(_ count: Int) -> [UInt8] {
- 
+        (0..<count).map({ _ in UInt8
