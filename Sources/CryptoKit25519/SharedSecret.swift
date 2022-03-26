@@ -9,3 +9,4 @@ import Foundation
 import CryptoSwift
 
 /**
+ A key agreement result from which you can d
