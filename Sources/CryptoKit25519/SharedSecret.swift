@@ -13,4 +13,5 @@ import CryptoSwift
  */
 public struct SharedSecret {
     
-    /// The
+    /// The raw bytes of the secret
+    let bytes: 
