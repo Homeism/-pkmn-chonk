@@ -10,4 +10,7 @@ import CryptoSwift
 
 /**
  A key agreement result from which you can derive a symmetric cryptographic key.
- 
+ */
+public struct SharedSecret {
+    
+    /// The
