@@ -21,4 +21,4 @@ public struct SharedSecret {
     }
     
     /**
-     Derives a symmetric encryp
+     Derives a symmetric encryption key from the secret using HKDF ke
