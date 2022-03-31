@@ -19,3 +19,6 @@ public struct SharedSecret {
     init(bytes: [UInt8]) {
         self.bytes = bytes
     }
+    
+    /**
+     Derives a symmetric encryp
