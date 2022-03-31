@@ -16,4 +16,6 @@ public struct SharedSecret {
     /// The raw bytes of the secret
     let bytes: [UInt8]
     
-    init(bytes: [UInt
+    init(bytes: [UInt8]) {
+        self.bytes = bytes
+    }
