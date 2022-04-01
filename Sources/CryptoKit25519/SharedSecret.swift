@@ -22,4 +22,4 @@ public struct SharedSecret {
     
     /**
      Derives a symmetric encryption key from the secret using HKDF key derivation.
-     - Parameter hashFunc
+     - Parameter hashFunction: The hash function to use f
