@@ -24,4 +24,4 @@ public struct SharedSecret {
      Derives a symmetric encryption key from the secret using HKDF key derivation.
      - Parameter hashFunction: The hash function to use for key derivation.
      - Parameter salt: The salt to use for key derivation.
-     - Parameter sha
+     - Parameter sharedInfo: The shared information to use for k
