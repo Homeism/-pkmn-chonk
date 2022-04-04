@@ -25,4 +25,4 @@ public struct SharedSecret {
      - Parameter hashFunction: The hash function to use for key derivation.
      - Parameter salt: The salt to use for key derivation.
      - Parameter sharedInfo: The shared information to use for key derivation.
-     - Parameter output
+     - Parameter outputByteCount: The length in bytes of resulting symmetric
