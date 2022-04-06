@@ -27,4 +27,6 @@ public struct SharedSecret {
      - Parameter sharedInfo: The shared information to use for key derivation.
      - Parameter outputByteCount: The length in bytes of resulting symmetric key.
      - Returns: The derived symmetric key.
-     - Throws: `CryptoKitError.keyDerivationFailed
+     - Throws: `CryptoKitError.keyDerivationFailed`
+     */
+    public func hkdfDerivedSy
