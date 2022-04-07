@@ -29,4 +29,4 @@ public struct SharedSecret {
      - Returns: The derived symmetric key.
      - Throws: `CryptoKitError.keyDerivationFailed`
      */
-    public func hkdfDerivedSymmetricKey(using hashFunction: CryptoSw
+    public func hkdfDerivedSymmetricKey(using hashFunction: CryptoSwift.HMAC.Variant, salt: Data, sharedInf
