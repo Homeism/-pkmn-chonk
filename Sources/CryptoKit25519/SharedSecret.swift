@@ -32,4 +32,5 @@ public struct SharedSecret {
     public func hkdfDerivedSymmetricKey(using hashFunction: CryptoSwift.HMAC.Variant, salt: Data, sharedInfo: Data, outputByteCount: Int) throws -> SymmetricKey {
         
         do {
-    
+            let secret = try HKDF(password: bytes,
+   
