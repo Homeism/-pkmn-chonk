@@ -34,4 +34,5 @@ public struct SharedSecret {
         do {
             let secret = try HKDF(password: bytes,
                                   salt: [UInt8](salt),
-                                  i
+                                  info: [UInt8](sharedInfo),
+        
