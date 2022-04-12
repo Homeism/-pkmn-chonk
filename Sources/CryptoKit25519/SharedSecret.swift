@@ -36,4 +36,5 @@ public struct SharedSecret {
                                   salt: [UInt8](salt),
                                   info: [UInt8](sharedInfo),
                                   keyLength: outputByteCount,
-                          
+                                  variant: hashFunction).calculate()
+         
