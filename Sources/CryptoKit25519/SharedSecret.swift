@@ -38,4 +38,5 @@ public struct SharedSecret {
                                   keyLength: outputByteCount,
                                   variant: hashFunction).calculate()
             return SymmetricKey(bytes: secret)
-    
+        } catch {
+            throw Cr
