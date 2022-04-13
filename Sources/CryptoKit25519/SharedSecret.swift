@@ -39,4 +39,6 @@ public struct SharedSecret {
                                   variant: hashFunction).calculate()
             return SymmetricKey(bytes: secret)
         } catch {
-            throw Cr
+            throw CryptoKitError.keyDerivationFailed
+        }
+ 
