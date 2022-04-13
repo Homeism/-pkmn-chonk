@@ -37,4 +37,5 @@ public struct SharedSecret {
                                   info: [UInt8](sharedInfo),
                                   keyLength: outputByteCount,
                                   variant: hashFunction).calculate()
-         
+            return SymmetricKey(bytes: secret)
+    
