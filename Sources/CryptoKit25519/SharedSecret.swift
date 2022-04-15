@@ -41,4 +41,6 @@ public struct SharedSecret {
         } catch {
             throw CryptoKitError.keyDerivationFailed
         }
- 
+    }
+    
+    /// The raw bytes of the secre
