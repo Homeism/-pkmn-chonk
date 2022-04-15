@@ -43,4 +43,6 @@ public struct SharedSecret {
         }
     }
     
-    /// The raw bytes of the secre
+    /// The raw bytes of the secret.
+    public var rawData: Data {
+ 
