@@ -7,4 +7,7 @@
 
 import Foundation
 
-public extension Curve
+public extension Curve25519 {
+    
+    /**
+     A mechanism use
