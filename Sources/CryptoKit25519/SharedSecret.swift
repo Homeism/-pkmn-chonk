@@ -49,4 +49,4 @@ public struct SharedSecret {
     }
 }
 
-extension SharedSecret: Equatable, Has
+extension SharedSecret: Equatable, Hashable { }
