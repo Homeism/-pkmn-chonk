@@ -2,4 +2,7 @@
 //  Ed25519.swift
 //  
 //
-//  C
+//  Created by Christoph on 06.01.20.
+//
+
+impor
