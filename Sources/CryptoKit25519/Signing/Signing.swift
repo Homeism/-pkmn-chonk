@@ -5,4 +5,6 @@
 //  Created by Christoph on 06.01.20.
 //
 
-impor
+import Foundation
+
+public extension Curve
