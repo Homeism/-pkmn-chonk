@@ -10,4 +10,4 @@ import Foundation
 public extension Curve25519 {
     
     /**
-     A mechanism use
+     A mechanism used to create or verify a cryptographic si
