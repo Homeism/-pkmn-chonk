@@ -8,4 +8,6 @@
 import Foundation
 import CEd25519
 
-public
+public extension Curve25519.Signing {
+    
+    /// A Curv
