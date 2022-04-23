@@ -10,4 +10,4 @@ import CEd25519
 
 public extension Curve25519.Signing {
     
-    /// A Curv
+    /// A Curve25519 private key used to create cryptograp
