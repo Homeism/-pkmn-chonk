@@ -10,4 +10,5 @@ import CEd25519
 
 public extension Curve25519.Signing {
     
-    /// A Curve25519 private key used to create cryptograp
+    /// A Curve25519 private key used to create cryptographic signatures.
+    struct PrivateKey
