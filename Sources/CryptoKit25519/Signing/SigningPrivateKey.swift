@@ -13,4 +13,6 @@ public extension Curve25519.Signing {
     /// A Curve25519 private key used to create cryptographic signatures.
     struct PrivateKey {
         
-        private let bytes: [U
+        private let bytes: [UInt8]
+        
+        /// The key
