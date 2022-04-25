@@ -15,4 +15,5 @@ public extension Curve25519.Signing {
         
         private let bytes: [UInt8]
         
-        /// The key
+        /// The key (32 bytes)
+        private 
