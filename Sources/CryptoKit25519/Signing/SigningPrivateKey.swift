@@ -22,4 +22,5 @@ public extension Curve25519.Signing {
         private let publicKeyBytes: [UInt8]
         
         /**
-         Creates a random Curve25519 private ke
+         Creates a random Curve25519 private key for signing.
+         - Throws: `C
