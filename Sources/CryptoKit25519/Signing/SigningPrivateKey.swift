@@ -23,4 +23,5 @@ public extension Curve25519.Signing {
         
         /**
          Creates a random Curve25519 private key for signing.
-         - Throws: `CryptoKitError.noRandomnessSource`, `Cryp
+         - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAvailable`
+   
