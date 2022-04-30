@@ -26,4 +26,5 @@ public extension Curve25519.Signing {
          - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAvailable`
          */
         public init() throws {
-            let seed = try Curve25519
+            let seed = try Curve25519.newKey()
+            self.init(bytes: seed)
