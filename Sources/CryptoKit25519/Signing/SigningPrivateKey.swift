@@ -28,3 +28,7 @@ public extension Curve25519.Signing {
         public init() throws {
             let seed = try Curve25519.newKey()
             self.init(bytes: seed)
+        }
+        
+        /**
+         
