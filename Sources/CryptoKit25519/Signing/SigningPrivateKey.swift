@@ -32,4 +32,4 @@ public extension Curve25519.Signing {
         
         /**
          Creates a Curve25519 private key for signing from a data representation.
-         - Paramet
+         - Parameter rawRepresentation: A raw representation of t
