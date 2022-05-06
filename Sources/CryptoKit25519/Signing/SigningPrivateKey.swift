@@ -33,4 +33,6 @@ public extension Curve25519.Signing {
         /**
          Creates a Curve25519 private key for signing from a data representation.
          - Parameter rawRepresentation: A raw representation of the key as data.
-         - Throws: `CryptoKitError.invalidKeyLength`, if the key length is not `Curve25
+         - Throws: `CryptoKitError.invalidKeyLength`, if the key length is not `Curve25519.keyLength`.
+         */
+     
