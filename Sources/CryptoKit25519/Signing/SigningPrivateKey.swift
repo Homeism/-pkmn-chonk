@@ -35,4 +35,5 @@ public extension Curve25519.Signing {
          - Parameter rawRepresentation: A raw representation of the key as data.
          - Throws: `CryptoKitError.invalidKeyLength`, if the key length is not `Curve25519.keyLength`.
          */
-        public init(rawRepresentation: Data) thro
+        public init(rawRepresentation: Data) throws {
+            guard rawRepresentatio
