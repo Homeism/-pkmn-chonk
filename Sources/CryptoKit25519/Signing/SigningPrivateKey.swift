@@ -36,4 +36,5 @@ public extension Curve25519.Signing {
          - Throws: `CryptoKitError.invalidKeyLength`, if the key length is not `Curve25519.keyLength`.
          */
         public init(rawRepresentation: Data) throws {
-            guard rawRepresentation.count == Curve25519.keyLength else
+            guard rawRepresentation.count == Curve25519.keyLength else {
+                throw CryptoKitError
