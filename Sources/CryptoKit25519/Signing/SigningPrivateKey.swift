@@ -42,4 +42,5 @@ public extension Curve25519.Signing {
             self.init(bytes: Array(rawRepresentation))
         }
         
-        public init(b
+        public init(bytes: [UInt8]) {
+            var pub = [UInt
