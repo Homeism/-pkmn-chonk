@@ -44,4 +44,4 @@ public extension Curve25519.Signing {
         
         public init(bytes: [UInt8]) {
             var pub = [UInt8](repeating: 0, count: Curve25519.keyLength)
-         
+            var priv = [UInt8](repeating: 0, count: Cu
