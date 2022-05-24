@@ -47,4 +47,5 @@ public extension Curve25519.Signing {
             var priv = [UInt8](repeating: 0, count: Curve25519.SHA512length)
             pub.withUnsafeMutableBufferPointer { pP in
                 priv.withUnsafeMutableBufferPointer { sP in
-                    bytes.withUns
+                    bytes.withUnsafeBytes { s in
+                        e
