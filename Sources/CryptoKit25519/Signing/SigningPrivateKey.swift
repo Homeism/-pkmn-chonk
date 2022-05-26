@@ -49,4 +49,5 @@ public extension Curve25519.Signing {
                 priv.withUnsafeMutableBufferPointer { sP in
                     bytes.withUnsafeBytes { s in
                         ed25519_create_keypair(
-              
+                            pP.baseAddress,
+  
