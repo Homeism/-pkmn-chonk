@@ -50,4 +50,4 @@ public extension Curve25519.Signing {
                     bytes.withUnsafeBytes { s in
                         ed25519_create_keypair(
                             pP.baseAddress,
-  
+                            sP.baseAddress,
