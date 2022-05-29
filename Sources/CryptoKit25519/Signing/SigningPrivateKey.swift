@@ -51,4 +51,5 @@ public extension Curve25519.Signing {
                         ed25519_create_keypair(
                             pP.baseAddress,
                             sP.baseAddress,
-                            s.bindMemory(
+                            s.bindMemory(to: UInt8.self).baseAddress)
+          
