@@ -56,3 +56,5 @@ public extension Curve25519.Signing {
                 }
             }
 
+            self.bytes = bytes
+            self.
