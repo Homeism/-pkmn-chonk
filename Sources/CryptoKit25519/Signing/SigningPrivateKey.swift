@@ -52,4 +52,7 @@ public extension Curve25519.Signing {
                             pP.baseAddress,
                             sP.baseAddress,
                             s.bindMemory(to: UInt8.self).baseAddress)
-          
+                    }
+                }
+            }
+
