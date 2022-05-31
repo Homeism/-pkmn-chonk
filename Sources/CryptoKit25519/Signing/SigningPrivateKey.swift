@@ -57,4 +57,4 @@ public extension Curve25519.Signing {
             }
 
             self.bytes = bytes
-            self.
+            self.privateKeyBytes = [UInt8](priv[0..<Cur
