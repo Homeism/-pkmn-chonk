@@ -60,4 +60,5 @@ public extension Curve25519.Signing {
             self.privateKeyBytes = [UInt8](priv[0..<Curve25519.keyLength])
             self.publicKeyBytes = [UInt8](pub)
         }
-    
+        
+        /// The corresponding public 
