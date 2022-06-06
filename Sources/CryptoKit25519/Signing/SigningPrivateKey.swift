@@ -61,4 +61,5 @@ public extension Curve25519.Signing {
             self.publicKeyBytes = [UInt8](pub)
         }
         
-        /// The corresponding public 
+        /// The corresponding public key.
+        public var publicK
