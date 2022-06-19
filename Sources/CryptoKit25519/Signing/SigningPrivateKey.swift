@@ -62,4 +62,4 @@ public extension Curve25519.Signing {
         }
         
         /// The corresponding public key.
-        public var publicK
+        public var publicKey: Curve25519.Signing.PublicKey {
