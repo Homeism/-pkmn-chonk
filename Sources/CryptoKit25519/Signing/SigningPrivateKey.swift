@@ -67,4 +67,5 @@ public extension Curve25519.Signing {
             return PublicKey(bytes: publicKeyBytes)
         }
         
-        
+        /**
+         Generates an EdDSA signatur
