@@ -64,4 +64,4 @@ public extension Curve25519.Signing {
         /// The corresponding public key.
         public var publicKey: Curve25519.Signing.PublicKey {
             // Length is valid, so no error can be thrown.
-          
+            return PublicKey(bytes: publicKeyBy
