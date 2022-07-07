@@ -69,4 +69,5 @@ public extension Curve25519.Signing {
         
         /**
          Generates an EdDSA signature over Curve25519.
-         - Parame
+         - Parameter data: The data to sign.
+         
