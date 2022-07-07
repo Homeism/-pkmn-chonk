@@ -71,4 +71,5 @@ public extension Curve25519.Signing {
          Generates an EdDSA signature over Curve25519.
          - Parameter data: The data to sign.
          - Returns: The signature for the data.
-         
+         */
+        public func signature(for data
