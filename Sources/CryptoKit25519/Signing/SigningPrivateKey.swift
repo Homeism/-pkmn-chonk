@@ -72,4 +72,5 @@ public extension Curve25519.Signing {
          - Parameter data: The data to sign.
          - Returns: The signature for the data.
          */
-        public func signature(for data
+        public func signature(for data: Data) -> Data {
+            var sig
