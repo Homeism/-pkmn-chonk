@@ -73,4 +73,4 @@ public extension Curve25519.Signing {
          - Returns: The signature for the data.
          */
         public func signature(for data: Data) -> Data {
-            var sig
+            var signature = [UInt8](repeating: 0, count
