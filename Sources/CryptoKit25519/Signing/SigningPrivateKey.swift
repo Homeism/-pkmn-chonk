@@ -75,4 +75,5 @@ public extension Curve25519.Signing {
         public func signature(for data: Data) -> Data {
             var signature = [UInt8](repeating: 0, count: 64)
             
-            privateKeyBytes.withUns
+            privateKeyBytes.withUnsafeBufferPointer { priv in
+      
