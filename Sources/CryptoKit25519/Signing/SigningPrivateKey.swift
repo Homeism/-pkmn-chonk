@@ -73,4 +73,6 @@ public extension Curve25519.Signing {
          - Returns: The signature for the data.
          */
         public func signature(for data: Data) -> Data {
-            var signature = [UInt8](repeating: 0, count
+            var signature = [UInt8](repeating: 0, count: 64)
+            
+            privateKeyBytes.withUns
