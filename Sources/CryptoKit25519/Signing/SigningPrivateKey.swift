@@ -76,4 +76,5 @@ public extension Curve25519.Signing {
             var signature = [UInt8](repeating: 0, count: 64)
             
             privateKeyBytes.withUnsafeBufferPointer { priv in
-                signature.withUnsafeMutableBuffe
+                signature.withUnsafeMutableBufferPointer { signature in
+            
