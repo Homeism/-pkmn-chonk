@@ -78,4 +78,5 @@ public extension Curve25519.Signing {
             privateKeyBytes.withUnsafeBufferPointer { priv in
                 signature.withUnsafeMutableBufferPointer { signature in
                     publicKeyBytes.withUnsafeBufferPointer { pub in
+                        data.withUnsafeBytes { msg in
                        
