@@ -81,4 +81,4 @@ public extension Curve25519.Signing {
                         data.withUnsafeBytes { msg in
                             ed25519_sign(signature.baseAddress,
                                          msg.bindMemory(to: UInt8.self).baseAddress,
-              
+                                         data.count,
