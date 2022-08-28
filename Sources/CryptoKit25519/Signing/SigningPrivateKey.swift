@@ -89,4 +89,6 @@ public extension Curve25519.Signing {
                 }
             }
             
-        
+            return Data(signature)
+        }
+ 
