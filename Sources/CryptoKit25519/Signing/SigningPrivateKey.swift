@@ -94,4 +94,5 @@ public extension Curve25519.Signing {
         
         /// The raw bytes of the key.
         public var rawRepresentation: Data {
- 
+            return Data(bytes)
+       
