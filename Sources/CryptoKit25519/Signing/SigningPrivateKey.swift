@@ -91,4 +91,6 @@ public extension Curve25519.Signing {
             
             return Data(signature)
         }
- 
+        
+        /// The raw bytes of the key.
+    
