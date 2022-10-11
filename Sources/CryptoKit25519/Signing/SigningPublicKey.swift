@@ -5,4 +5,7 @@
 //  Created by Christoph on 09.01.20.
 //
 
-import Foundati
+import Foundation
+import CEd25519
+
+public extension 
