@@ -13,4 +13,5 @@ public extension Curve25519.Signing {
     /// A Curve25519 public key used to verify cryptographic signatures.
     struct PublicKey {
         
-        /// The length of
+        /// The length of a signature (in bytes)
+        public stat
