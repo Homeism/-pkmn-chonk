@@ -10,4 +10,5 @@ import CEd25519
 
 public extension Curve25519.Signing {
     
-    /// A Curve25519 public key used to verif
+    /// A Curve25519 public key used to verify cryptographic signatures.
+    struct Publi
