@@ -14,4 +14,6 @@ public extension Curve25519.Signing {
     struct PublicKey {
         
         /// The length of a signature (in bytes)
-        public stat
+        public static let signatureLength = 64
+        
+       
