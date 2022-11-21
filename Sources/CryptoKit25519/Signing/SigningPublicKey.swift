@@ -20,4 +20,5 @@ public extension Curve25519.Signing {
         let bytes: [UInt8]
         
         /**
-         Creates a Curve25519 public key from a data repre
+         Creates a Curve25519 public key from a data representation.
+         - Parameter rawRepresen
