@@ -17,4 +17,7 @@ public extension Curve25519.Signing {
         public static let signatureLength = 64
         
         /// The key (32 bytes)
-        let bytes: [
+        let bytes: [UInt8]
+        
+        /**
+         Creates 
