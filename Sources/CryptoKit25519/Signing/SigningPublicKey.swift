@@ -28,4 +28,6 @@ public extension Curve25519.Signing {
              guard rawRepresentation.count == Curve25519.keyLength else {
                 throw CryptoKitError.invalidKeyLength
              }
-             self.bytes = [
+             self.bytes = [UInt8](rawRepresentation)
+        }
+      
