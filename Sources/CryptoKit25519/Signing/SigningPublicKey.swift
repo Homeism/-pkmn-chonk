@@ -27,4 +27,5 @@ public extension Curve25519.Signing {
          public init(rawRepresentation: Data) throws {
              guard rawRepresentation.count == Curve25519.keyLength else {
                 throw CryptoKitError.invalidKeyLength
-           
+             }
+             self.bytes = [
