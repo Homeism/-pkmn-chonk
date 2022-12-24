@@ -30,4 +30,6 @@ public extension Curve25519.Signing {
              }
              self.bytes = [UInt8](rawRepresentation)
         }
-      
+        
+        init(bytes: [UInt8]) {
+          
