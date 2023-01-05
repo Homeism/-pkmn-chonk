@@ -36,4 +36,5 @@ public extension Curve25519.Signing {
         }
         
         /// The raw bytes of the key.
-        public var rawRepresentat
+        public var rawRepresentation: Data {
+            re
