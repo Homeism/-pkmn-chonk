@@ -46,4 +46,4 @@ public extension Curve25519.Signing {
          - Parameter data: The data covered by the signature.
          - Returns: A Boolean value that’s true when the signature is valid for the given data.
          */
-       
+        public func isValidSignature(_ signa
