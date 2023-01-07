@@ -43,4 +43,5 @@ public extension Curve25519.Signing {
         /**
          Verifies an EdDSA signature over Curve25519.
          - Parameter signature: The signature to check against the given data.
-         - Parameter data: The data covered by the
+         - Parameter data: The data covered by the signature.
+         - Returns: A Boolean
