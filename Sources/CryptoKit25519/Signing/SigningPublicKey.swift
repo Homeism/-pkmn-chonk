@@ -41,4 +41,5 @@ public extension Curve25519.Signing {
         }
         
         /**
-         Verifies an EdDSA sign
+         Verifies an EdDSA signature over Curve25519.
+         - Pa
