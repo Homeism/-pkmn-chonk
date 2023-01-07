@@ -40,4 +40,5 @@ public extension Curve25519.Signing {
             return Data(bytes)
         }
         
-        
+        /**
+         Verifies an EdDSA sign
