@@ -47,4 +47,4 @@ public extension Curve25519.Signing {
          - Returns: A Boolean value that’s true when the signature is valid for the given data.
          */
         public func isValidSignature(_ signature: Data, for data: Data) -> Bool {
-  
+            guard signature.count == P
