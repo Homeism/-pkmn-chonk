@@ -49,4 +49,6 @@ public extension Curve25519.Signing {
         public func isValidSignature(_ signature: Data, for data: Data) -> Bool {
             guard signature.count == PublicKey.signatureLength else {
                 return false
-     
+            }
+
+            return signat
