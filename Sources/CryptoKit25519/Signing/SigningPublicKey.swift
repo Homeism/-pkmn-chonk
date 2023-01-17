@@ -51,4 +51,5 @@ public extension Curve25519.Signing {
                 return false
             }
 
-            return signature.withUnsafeBytes { signature
+            return signature.withUnsafeBytes { signature in
+                data.withU
