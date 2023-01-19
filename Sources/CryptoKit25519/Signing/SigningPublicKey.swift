@@ -55,4 +55,4 @@ public extension Curve25519.Signing {
                 data.withUnsafeBytes { msg in
                     bytes.withUnsafeBufferPointer { pub in
                         ed25519_verify(
-           
+                            signature.bindMemory(to
