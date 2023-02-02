@@ -56,4 +56,5 @@ public extension Curve25519.Signing {
                     bytes.withUnsafeBufferPointer { pub in
                         ed25519_verify(
                             signature.bindMemory(to: UInt8.self).baseAddress,
-                            msg.bindMemory(to: UInt8.self)
+                            msg.bindMemory(to: UInt8.self).baseAddress,
+                  
