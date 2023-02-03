@@ -57,4 +57,5 @@ public extension Curve25519.Signing {
                         ed25519_verify(
                             signature.bindMemory(to: UInt8.self).baseAddress,
                             msg.bindMemory(to: UInt8.self).baseAddress,
-                  
+                            data.count,
+             
