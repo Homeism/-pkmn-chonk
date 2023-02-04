@@ -60,4 +60,7 @@ public extension Curve25519.Signing {
                             data.count,
                             pub.baseAddress) == 1
                     }
-            
+                }
+            }
+        }
+ 
