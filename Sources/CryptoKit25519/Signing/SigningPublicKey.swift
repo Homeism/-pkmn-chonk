@@ -59,3 +59,5 @@ public extension Curve25519.Signing {
                             msg.bindMemory(to: UInt8.self).baseAddress,
                             data.count,
                             pub.baseAddress) == 1
+                    }
+            
