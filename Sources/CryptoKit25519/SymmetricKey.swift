@@ -2,4 +2,4 @@
 //  SymmetricKey.swift
 //  CCurve25519
 //
-//  Created b
+//  Created by Christoph on 08.01.2
