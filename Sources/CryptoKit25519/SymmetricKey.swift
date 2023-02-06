@@ -8,3 +8,5 @@
 import Foundation
 
 /** A symmetric cryptographic key.
+ 
+ You typically derive a symme
