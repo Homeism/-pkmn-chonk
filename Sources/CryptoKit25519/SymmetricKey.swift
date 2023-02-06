@@ -7,4 +7,4 @@
 
 import Foundation
 
-/*
+/** A symmetric cryptographic key.
