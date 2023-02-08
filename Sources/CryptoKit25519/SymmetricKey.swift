@@ -9,4 +9,4 @@ import Foundation
 
 /** A symmetric cryptographic key.
  
- You typically derive a symmetric key from an instance of a shared secret (`SharedSecret`) that you obtain through key agreement. You use a sym
+ You typically derive a symmetric key from an instance of a shared secret (`SharedSecret`) that you obtain through key agreement. You use a symmetric key to compute a message authenti
