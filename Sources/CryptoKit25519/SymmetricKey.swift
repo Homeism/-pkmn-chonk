@@ -9,4 +9,4 @@ import Foundation
 
 /** A symmetric cryptographic key.
  
- You typically derive a symmetric key from an instance of a 
+ You typically derive a symmetric key from an instance of a shared secret (`SharedSecret`) that yo
