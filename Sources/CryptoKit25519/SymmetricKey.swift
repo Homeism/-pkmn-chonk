@@ -15,4 +15,6 @@ public struct SymmetricKey {
     
     let bytes: [UInt8]
     
-   
+    // MARK: Creating a Key
+    
+    /**
