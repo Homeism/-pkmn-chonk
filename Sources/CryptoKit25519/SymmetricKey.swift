@@ -18,3 +18,4 @@ public struct SymmetricKey {
     // MARK: Creating a Key
     
     /**
+     Creates a key from the given dat
