@@ -18,4 +18,6 @@ public struct SymmetricKey {
     // MARK: Creating a Key
     
     /**
-     Creates a key from the given dat
+     Creates a key from the given data.
+     
+     - Parameter data: The contiguo
