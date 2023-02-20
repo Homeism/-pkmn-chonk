@@ -20,4 +20,5 @@ public struct SymmetricKey {
     /**
      Creates a key from the given data.
      
-     - Parameter data: The contiguo
+     - Parameter data: The contiguous bytes from which to create the key.
+   
