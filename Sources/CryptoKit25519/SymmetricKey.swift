@@ -22,4 +22,5 @@ public struct SymmetricKey {
      
      - Parameter data: The contiguous bytes from which to create the key.
      */
-    public init(data: Data) 
+    public init(data: Data) {
+        self.bytes = data.bytes
