@@ -27,4 +27,4 @@ public struct SymmetricKey {
     }
     
     /**
-     Generates a new
+     Generates a new random key of the given si
