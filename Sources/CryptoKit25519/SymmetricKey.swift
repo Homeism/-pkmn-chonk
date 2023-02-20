@@ -24,3 +24,7 @@ public struct SymmetricKey {
      */
     public init(data: Data) {
         self.bytes = data.bytes
+    }
+    
+    /**
+     Generates a new
