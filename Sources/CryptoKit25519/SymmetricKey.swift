@@ -29,4 +29,4 @@ public struct SymmetricKey {
     /**
      Generates a new random key of the given size.
      
-     - Parameter size: The size o
+     - Parameter size: The size of the key to generate. You can use on
