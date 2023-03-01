@@ -30,4 +30,6 @@ public struct SymmetricKey {
      Generates a new random key of the given size.
      
      - Parameter size: The size of the key to generate. You can use one of the standard sizes, like `bits256`, or you can create a key of custom length by initializing a `SymmetricKeySize` instance with a non-standard value.
-     - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAvaila
+     - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAvailable`
+     */
+    public init(size: SymmetricKeySize)
