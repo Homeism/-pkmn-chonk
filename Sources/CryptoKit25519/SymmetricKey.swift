@@ -33,4 +33,4 @@ public struct SymmetricKey {
      - Throws: `CryptoKitError.noRandomnessSource`, `CryptoKitError.noRandomnessAvailable`
      */
     public init(size: SymmetricKeySize) throws {
-        self.bytes = tr
+        self.bytes = try Randomness.randomBytes(count: size.bitCount
