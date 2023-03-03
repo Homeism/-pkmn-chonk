@@ -36,4 +36,8 @@ public struct SymmetricKey {
         self.bytes = try Randomness.randomBytes(count: size.bitCount / 8)
     }
     
-    init(bytes: [UInt8])
+    init(bytes: [UInt8]) {
+        self.bytes = bytes
+    }
+    
+    /
