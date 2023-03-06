@@ -40,4 +40,6 @@ public struct SymmetricKey {
         self.bytes = bytes
     }
     
-    /
+    // MARK: Getting the Key Length
+    
+  
