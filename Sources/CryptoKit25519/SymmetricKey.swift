@@ -42,4 +42,5 @@ public struct SymmetricKey {
     
     // MARK: Getting the Key Length
     
-    /// The number of bits in
+    /// The number of bits in the key.
+    public var bitCount: In
