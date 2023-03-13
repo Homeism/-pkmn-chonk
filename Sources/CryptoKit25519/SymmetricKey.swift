@@ -46,4 +46,6 @@ public struct SymmetricKey {
     public var bitCount: Int {
         return bytes.count * 8
     }
-  
+    
+    /// The raw bytes of the key
+    publ
