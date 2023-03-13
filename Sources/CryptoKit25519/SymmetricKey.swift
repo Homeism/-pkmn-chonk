@@ -48,4 +48,5 @@ public struct SymmetricKey {
     }
     
     /// The raw bytes of the key
-    publ
+    public var rawBytes: Data {
+        
