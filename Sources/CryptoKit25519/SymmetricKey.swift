@@ -52,4 +52,7 @@ public struct SymmetricKey {
         return Data(bytes)
     }
     
- 
+    
+    /**
+     
+     The sizes that
