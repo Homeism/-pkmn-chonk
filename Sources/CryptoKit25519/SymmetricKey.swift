@@ -55,4 +55,4 @@ public struct SymmetricKey {
     
     /**
      
-     The sizes that
+     The sizes that a symmetric cryptographic
