@@ -55,4 +55,6 @@ public struct SymmetricKey {
     
     /**
      
-     The sizes that a symmetric cryptographic
+     The sizes that a symmetric cryptographic key can take.
+ 
+     When creating 
