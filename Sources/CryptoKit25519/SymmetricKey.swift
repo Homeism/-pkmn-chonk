@@ -57,4 +57,4 @@ public struct SymmetricKey {
      
      The sizes that a symmetric cryptographic key can take.
  
-     When creating a new SymmetricKey instance with a call to it
+     When creating a new SymmetricKey instance with a call to its `init(size:)` initializer, y
