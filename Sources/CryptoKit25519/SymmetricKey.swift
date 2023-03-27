@@ -59,4 +59,6 @@ public struct SymmetricKey {
  
      When creating a new SymmetricKey instance with a call to its `init(size:)` initializer, you typically use one of the standard key sizes, like `bits128`, `bits192`, or `bits256`. When you need a key with a non-standard length, use the`init(bitCount:)` initializer to create a `SymmetricKeySize` instance with a custom bit count.
      */
-    public struct Symm
+    public struct SymmetricKeySize {
+        
+        // MA
