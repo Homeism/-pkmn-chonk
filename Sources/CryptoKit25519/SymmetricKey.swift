@@ -61,4 +61,6 @@ public struct SymmetricKey {
      */
     public struct SymmetricKeySize {
         
-        // MA
+        // MARK: Using Standard Key Lengths
+        
+    
