@@ -64,4 +64,5 @@ public struct SymmetricKey {
         // MARK: Using Standard Key Lengths
         
         /// A size of 128 bits.
-        public static var bits128: SymmetricK
+        public static var bits128: SymmetricKeySize {
+            .init(bitCount: 128)
