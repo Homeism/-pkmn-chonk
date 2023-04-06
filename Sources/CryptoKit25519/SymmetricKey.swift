@@ -71,4 +71,6 @@ public struct SymmetricKey {
         /// A size of 192 bits.
         public static var bits192: SymmetricKeySize {
             .init(bitCount: 192)
-      
+        }
+        
+        /// A size of 25
