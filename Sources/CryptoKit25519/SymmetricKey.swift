@@ -78,4 +78,5 @@ public struct SymmetricKey {
             .init(bitCount: 256)
         }
         
-        /// 
+        /// The number of bits in the key.
+        pub
