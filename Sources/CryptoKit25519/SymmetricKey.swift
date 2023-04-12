@@ -79,4 +79,6 @@ public struct SymmetricKey {
         }
         
         /// The number of bits in the key.
-        pub
+        public let bitCount: Int
+        
+    
