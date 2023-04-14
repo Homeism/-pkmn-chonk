@@ -82,4 +82,6 @@ public struct SymmetricKey {
         public let bitCount: Int
         
         /**
-         Creates a new key s
+         Creates a new key size of the given length.
+         */
+   
