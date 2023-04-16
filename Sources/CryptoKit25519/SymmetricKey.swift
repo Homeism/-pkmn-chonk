@@ -84,4 +84,4 @@ public struct SymmetricKey {
         /**
          Creates a new key size of the given length.
          */
-   
+        public init(bitCount: Int)
