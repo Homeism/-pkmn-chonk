@@ -86,4 +86,8 @@ public struct SymmetricKey {
          */
         public init(bitCount: Int) {
             self.bitCount = bitCount
- 
+        }
+    }
+}
+
+extension Symm
