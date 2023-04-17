@@ -90,4 +90,4 @@ public struct SymmetricKey {
     }
 }
 
-extension Symm
+extension SymmetricKey: Equatable { }
