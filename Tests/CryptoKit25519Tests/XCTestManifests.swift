@@ -1,4 +1,5 @@
 import XCTest
 
 #if !canImport(ObjectiveC)
-public func a
+public func allTests() -> [XCTestCaseEntry] {
+    ret
