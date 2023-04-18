@@ -2,4 +2,5 @@ import XCTest
 
 #if !canImport(ObjectiveC)
 public func allTests() -> [XCTestCaseEntry] {
-    ret
+    return [
+        testCase(CryptoKit255
