@@ -45,3 +45,39 @@ final class CryptoKit25519Tests: XCTestCase {
         let sk = Data(base64Encoded: "nWGxne/9WmC6hEr0kuwsxERJxWl7MmkZcDusAxyuf2A=")!
         let pk = Data(base64Encoded: "11qYAYKxCrfVS/7TyWQHOg7hcvPapiMlrwIaaPcHURo=")!
         
+        // Generate private key through CryptoKit
+        let key1 = try CryptoKit.Curve25519.Signing.PrivateKey(rawRepresentation: sk)
+        XCTAssertEqual(key1.publicKey.rawRepresentation, pk)
+        
+        // Compare with CryptoKit25519
+        let key2 = try CryptoKit25519.Curve25519.Signing.PrivateKey(rawRepresentation: sk)
+        XCTAssertEqual(key2.publicKey.rawRepresentation, pk)
+    }
+    
+    func testVerifySignature() throws {
+        let sk = try CryptoKit25519.Curve25519.Signing.PrivateKey()
+        let signature = sk.signature(for: Data())
+        let pk = sk.publicKey
+        XCTAssertTrue(pk.isValidSignature(signature, for: Data()))
+    }
+    
+    func testSignatureCompatibility() throws {
+        let sk = Data(base64Encoded: "nWGxne/9WmC6hEr0kuwsxERJxWl7MmkZcDusAxyuf2A=")!
+        
+        let key1 = try CryptoKit.Curve25519.Signing.PrivateKey(rawRepresentation: sk)
+        let key2 = try CryptoKit25519.Curve25519.Signing.PrivateKey(rawRepresentation: sk)
+        
+        let signature1 = try key1.signature(for: Data())
+        XCTAssertTrue(key1.publicKey.isValidSignature(signature1, for: Data()))
+        XCTAssertTrue(key2.publicKey.isValidSignature(signature1, for: Data()))
+        
+        let signature2 = key2.signature(for: Data())
+        XCTAssertTrue(key1.publicKey.isValidSignature(signature2, for: Data()))
+        XCTAssertTrue(key2.publicKey.isValidSignature(signature2, for: Data()))
+    }
+    
+    func testKeyAgreement() throws {
+        let salt = "Salt".data(using: .utf8)!
+        let sharedInfo = "Info".data(using: .utf8)!
+        let keyA = CryptoKit.Curve25519.KeyAgreement.PrivateKey()
+        let keyB = try CryptoKit25519.Curve25519.KeyAgreement.PrivateKey()
