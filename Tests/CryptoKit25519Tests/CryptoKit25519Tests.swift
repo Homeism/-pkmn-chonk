@@ -119,3 +119,43 @@ final class CryptoKit25519Tests: XCTestCase {
         
         let decrypted1 = try CryptoKit.AES.GCM.open(box1, using: key1)
         let decrypted2 = try CryptoKit25519.AES.GCM.open(box2, using: key2)
+        
+        XCTAssertEqual(decrypted1, message)
+        XCTAssertEqual(decrypted2, message)
+    }
+}
+
+@available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, macCatalyst 13.0, *)
+extension CryptoKit.SymmetricKey {
+    
+    var rawBytes: Data {
+        withUnsafeBytes { Data(Array($0)) }
+    }
+}
+
+@available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, macCatalyst 13.0, *)
+extension CryptoKit.AES.GCM.Nonce {
+    
+    var rawRepresentation: Data {
+        self.withUnsafeBytes { Data(Array($0)) }
+    }
+}
+
+extension Data {
+    
+    public func hexEncodedString() -> String {
+        return map { String(format: "%02hhx", $0) }.joined()
+    }
+    
+    // Convert 0 ... 9, a ... f, A ...F to their decimal value,
+    // return nil for all other input characters
+    private func decodeNibble(_ u: UInt16) -> UInt8? {
+        switch(u) {
+        case 0x30 ... 0x39:
+            return UInt8(u - 0x30)
+        case 0x41 ... 0x46:
+            return UInt8(u - 0x41 + 10)
+        case 0x61 ... 0x66:
+            return UInt8(u - 0x61 + 10)
+        default:
+            return nil
