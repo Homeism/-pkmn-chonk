@@ -81,3 +81,41 @@ final class CryptoKit25519Tests: XCTestCase {
         let sharedInfo = "Info".data(using: .utf8)!
         let keyA = CryptoKit.Curve25519.KeyAgreement.PrivateKey()
         let keyB = try CryptoKit25519.Curve25519.KeyAgreement.PrivateKey()
+        
+        // Calculate key with CryptoKit
+        let pubB = try CryptoKit.Curve25519.KeyAgreement.PublicKey(rawRepresentation: keyB.publicKey.rawRepresentation)
+        let s1 = try keyA.sharedSecretFromKeyAgreement(with: pubB)
+        let k1 = s1.hkdfDerivedSymmetricKey(
+            using: SHA256.self, salt: salt, sharedInfo: sharedInfo, outputByteCount: 32)
+        
+        let pubA = try CryptoKit25519.Curve25519.KeyAgreement.PublicKey(rawRepresentation: keyA.publicKey.rawRepresentation)
+        let s2 = try keyB.sharedSecretFromKeyAgreement(with: pubA)
+        let k2 = try s2.hkdfDerivedSymmetricKey(
+            using: .sha256, salt: salt, sharedInfo: sharedInfo, outputByteCount: 32)
+        
+        XCTAssertEqual(k1.rawBytes, k2.rawBytes)
+    }
+    
+    func testEncrypt() throws {
+        let message = "Hi there".data(using: .utf8)!
+        
+        let key1 = CryptoKit.SymmetricKey(size: .bits256)
+        let key2 = CryptoKit25519.SymmetricKey(data: key1.rawBytes)
+        
+        let nonce1 = CryptoKit.AES.GCM.Nonce()
+        let nonce2 = try CryptoKit25519.AES.GCM.Nonce(data: nonce1.rawRepresentation)
+        
+        // Encrypt the data
+        let encrypted1 = try CryptoKit.AES.GCM.seal(message, using: key1, nonce: nonce1)
+        let encrypted2 = try CryptoKit25519.AES.GCM.seal(message, using: key2, nonce: nonce2)
+        XCTAssertEqual(encrypted1.ciphertext, encrypted2.ciphertext)
+        XCTAssertEqual(encrypted1.nonce.rawRepresentation, nonce1.rawRepresentation)
+        XCTAssertEqual(encrypted1.tag, encrypted2.tag)
+        XCTAssertEqual(encrypted1.combined!, encrypted2.combined)
+        
+        // Decrypt the data
+        let box1 = try CryptoKit.AES.GCM.SealedBox(combined: encrypted2.combined)
+        let box2 = try CryptoKit25519.AES.GCM.SealedBox(combined: encrypted1.combined!)
+        
+        let decrypted1 = try CryptoKit.AES.GCM.open(box1, using: key1)
+        let decrypted2 = try CryptoKit25519.AES.GCM.open(box2, using: key2)
