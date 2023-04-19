@@ -1,3 +1,5 @@
 import XCTest
 
-im
+import CryptoKit25519Tests
+
+var tests = [XCTe
