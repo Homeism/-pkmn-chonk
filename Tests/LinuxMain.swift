@@ -2,4 +2,5 @@ import XCTest
 
 import CryptoKit25519Tests
 
-var tests = [XCTe
+var tests = [XCTestCaseEntry]()
+tests += Cryp
